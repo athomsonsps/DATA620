@@ -1,0 +1,48 @@
+---
+title: "DATA 620 Final Project Proposal"
+subtitle: "Provider Connections in the AI Chip and Memory Supply Chain"
+author: "Andre Thomson"
+date: "November 2026"
+format:
+  html:
+    toc: true
+    toc-title: "Contents"
+    embed-resources: true
+---
+
+## Why I chose this project
+
+I want to study the companies and countries connected to important parts of the AI chip and memory supply chain. I work in IT, so hardware and memory are easier for me to connect to than a theoretical topic. People often talk about an AI chip as if one company makes it, but it depends on designs, testing tools, fabrication equipment, and packaging technology from suppliers in different countries.
+
+My first idea was to study news headlines about chip shortages, but that would measure media coverage, not the supply chain itself. A documented semiconductor dataset lets me examine the provider-to-input relationships, and a network shows where the same country or company appears in more than one part of the chain.
+
+## Guiding question and expectation
+
+*Which companies and countries are most connected to five AI chip and memory related inputs, and which of those inputs have the fewest listed providers?*
+
+I expect countries to connect more of the network than individual companies, and some advanced inputs to have fewer listed providers. These are expectations to examine, not conclusions.
+
+## What the project will compare
+
+The five inputs are discrete GPUs, AI ASICs, memory chip design, memory test tools, and fabrication tools for advanced packaging. I will compare providers by how many of these inputs they connect to, inputs by how many providers they have, and pairs of inputs by how many providers they share. I am not comparing production volume, price, or shortage periods, which the source does not cover.
+
+## Data source
+
+I will use the September 2026 release of the Emerging Technology Observatory Semiconductor Supply Chain Dataset from Georgetown University's Center for Security and Emerging Technology. I downloaded its five CSV tables and checked that they load. The source contains 126 inputs, 396 unique providers, and 1,300 provider-to-input relationships.
+
+## Plan for the analysis
+
+I will use Python, pandas, NetworkX, and Matplotlib in a Jupyter Notebook. After checking row counts, missing values, duplicates, and unmatched IDs, I will build a bipartite network. One node set is companies and countries, the other is the five inputs, and an edge means the dataset lists that provider for that input. I will calculate degree and betweenness centrality, then project the network onto the inputs, weighting each edge by the number of shared providers. Market share is not reported consistently, so I will use it only in separate examples.
+
+## Concerns and limitations
+
+The dataset is a snapshot with mixed reference years, so it cannot show change over time or prove a shortage. Provider country is the headquarters of the parent company, not where production happens. I will exclude aggregate labels such as "Various companies" from centrality and report how many records that removes. An edge shows that the publisher lists a provider, not a contract or the amount supplied.
+
+## Individual responsibility
+
+I will complete this project individually, including the data checks, code, visualizations, interpretation, and presentation. If a data check shows one input cannot be compared fairly, I will adjust the focus.
+
+## Sources
+
+- Emerging Technology Observatory. Semiconductor Supply Chain Dataset, September 2026 release. https://www.eto.tech/dataset-docs/chipexplorer/index.html
+- Center for Security and Emerging Technology. ETO Semiconductor Supply Chain Dataset repository. https://github.com/georgetown-cset/eto-chip-explorer/tree/main/data
