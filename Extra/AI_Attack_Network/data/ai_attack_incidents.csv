@@ -1,0 +1,844 @@
+id,year,incident_type,attack_vector,ai_role,named_ai_tools,atlas_techniques,severity,title
+INC-03997,2024,intrusion,indirect-prompt-injection,AI product attacked,Copilot,AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053,Critical,Microsoft Copilot for M365 — document exfiltration via indirect injection
+INC-05001,2023,intrusion,adversarial-input,AI product attacked,Dark-web LLMs,AML.T0048;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0056;AML.T0067,High,WormGPT — uncensored LLM sold for cybercrime on dark web forums
+INC-03484,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0029;AML.T0034;AML.T0046;AML.T0048;AML.T0048.001;AML.T0053;AML.T0115.001,Critical,AI voice deepfake CEO fraud — Hong Kong $25M loss
+INC-03972,2024,intrusion,jailbreak,AI product attacked,,AML.T0048;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053,Critical,MathPrompt: symbolic mathematics jailbreak attack
+INC-02465,2025,intrusion,other,unclear,Cursor,AML.T0024;AML.T0050;AML.T0053;AML.T0057,High,Cursor AI code agent leaking repository secrets via context window
+INC-02874,2025,intrusion,supply-chain,AI product attacked,,AML.T0010;AML.T0010.001;AML.T0011;AML.T0012;AML.T0049;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0055,Critical,MCP tool poisoning — hidden instructions in Model Context Protocol tool descriptions
+INC-03955,2024,intrusion,malware,AI used as weapon,,AML.T0048;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0060,Critical,LLM-generated malware evades endpoint detection — AI-assisted polymorphic code
+INC-02451,2025,intrusion,supply-chain,AI product attacked,Claude,AML.T0010;AML.T0010.001;AML.T0010.003;AML.T0011;AML.T0048;AML.T0049;AML.T0050;AML.T0053;AML.T0060,Critical,Claude Skills ransomware deployment — MedusaLocker via malicious plugin
+INC-00806,2026,intrusion,jailbreak,AI product attacked,Claude,AML.T0024;AML.T0025;AML.T0048;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0054;AML.T0057,Critical,"Claude AI jailbreak — Mexican government breach, 150GB data theft across 10 agencies"
+INC-00834,2026,intrusion,prompt-injection,AI product attacked,Claude,AML.T0010;AML.T0010.001;AML.T0010.003;AML.T0011;AML.T0018;AML.T0020;AML.T0048;AML.T0049;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0059;AML.T0060;AML.T0115.000,Critical,"Clinejection — CI/CD pipeline compromise via Cline's issue triage bot, 4,000 machines infected"
+INC-01064,2026,intrusion,indirect-prompt-injection,AI product attacked,Gemini,AML.T0018;AML.T0020;AML.T0048.001;AML.T0048.003;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0057;AML.T0059;AML.T0066;AML.T0115.000,Critical,GeminiJack — zero-click Gemini Enterprise data exfiltration via shared Google Docs
+INC-02899,2025,intrusion,auth-bypass,AI product attacked,Copilot,AML.T0012;AML.T0024;AML.T0048;AML.T0048.003;AML.T0051;AML.T0051.001;AML.T0053;AML.T0055;AML.T0057;AML.T0085.001,Critical,Microsoft Copilot Studio agents public by default — unauthorized data exfiltration
+INC-03210,2025,intrusion,prompt-injection,AI product attacked,ChatGPT/OpenAI,AML.T0048.001;AML.T0048.003;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053,Critical,ShadowLeak — ChatGPT Deep Research zero-click data exfiltration from connected services
+INC-02450,2025,intrusion,prompt-injection,AI product attacked,Claude,AML.T0010;AML.T0010.001;AML.T0010.003;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053,Medium,Claude Skills Data Exfiltration
+INC-02449,2025,intrusion,data-exfiltration,AI product attacked,Claude,AML.T0024;AML.T0025;AML.T0048.003;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0057,High,Claude Pirate Data Exfiltration
+INC-02607,2025,intrusion,supply-chain,AI product attacked,Copilot;Cursor,AML.T0010;AML.T0010.001;AML.T0010.003;AML.T0018;AML.T0024;AML.T0048;AML.T0048.001;AML.T0048.003;AML.T0050;AML.T0051;AML.T0051.001;AML.T0053;AML.T0057;AML.T0066,Critical,GitHub Copilot & Cursor Code-Agent Exploit
+INC-00833,2026,intrusion,prompt-injection,AI product attacked,Claude,AML.T0018;AML.T0020;AML.T0024;AML.T0048.001;AML.T0048.003;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0056;AML.T0057;AML.T0059;AML.T0066;AML.T0115.000,High,Claudy Day -- Claude.ai Prompt Injection Attack Chain
+INC-01637,2026,intrusion,prompt-injection,AI product attacked,Perplexity,AML.T0048.001;AML.T0048.003;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053,Medium,PerplexedBrowser -- Perplexity Comet Agentic Browser Vulnerabilities
+INC-00746,2026,intrusion,data-exfiltration,AI product attacked,ChatGPT/OpenAI,AML.T0011;AML.T0012;AML.T0024;AML.T0025;AML.T0049;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0055;AML.T0057;AML.T0060,Critical,ChatGPT Data Exfiltration via DNS Covert Channel
+INC-00827,2026,intrusion,prompt-injection,AI product attacked,Claude,AML.T0048.001;AML.T0048.003;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0057;AML.T0066;AML.T0070,High,Claude Cowork File Exfiltration
+INC-02686,2025,intrusion,data-exfiltration,AI product attacked,Gemini;Copilot;Perplexity,AML.T0024;AML.T0025;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0057;AML.T0066;AML.T0070,High,HashJack -- URL Fragment Prompt Injection for AI Browsers
+INC-02964,2025,intrusion,prompt-injection,AI product attacked,,AML.T0048.001;AML.T0048.003;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053,Medium,Notion 3.0 AI Agent Data Exfiltration via Prompt Injection
+INC-02512,2025,intrusion,prompt-injection,AI product attacked,,AML.T0011;AML.T0049;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0060;AML.T0066;AML.T0070,Medium,Devin AI Agent Prompt Injection & Data Exfiltration
+INC-04359,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0056;AML.T0057;AML.T0115.001,High,WPP CEO Mark Read impersonated in deepfake voice-cloning scam
+INC-06513,2020,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,Critical,Dubai $35M voice-cloning fraud against UAE bank
+INC-07182,2019,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,High,"Fraudsters clone CEO voice to steal USD 243,000 from UK energy firm"
+INC-03715,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,High,Deepfake Pierce Brosnan scam cripples Nottingham art gallery
+INC-03969,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0056;AML.T0057;AML.T0115.001,Medium,Mary Nightingale likeness used in AI-generated deepfake scam
+INC-04035,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,High,"New Zealand pensioner loses NZD 224,000 to deepfake Luxon Bitcoin scam"
+INC-03720,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0056;AML.T0057;AML.T0115.001,Medium,Deepfake Taylor Swift fake Le Creuset cookware giveaway scam
+INC-03588,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0056;AML.T0057;AML.T0115.001,Critical,Arup Hong Kong $25M deepfake CFO multi-person video call scam
+INC-04601,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,Medium,Deepfake MrBeast iPhone giveaway scam on TikTok
+INC-04733,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,Medium,Martin Lewis deepfake scam ad on Facebook
+INC-03974,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0053;AML.T0056;AML.T0115.001,Medium,Maxpread Technologies fabricated AI CEO scam
+INC-04396,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,High,"AI voice impersonation scams Canadian couple of USD 21,000"
+INC-04464,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,High,Attacker impersonates company CEO with AI voice clone to authorize fraudulent transaction
+INC-04476,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0053;AML.T0056;AML.T0115.001,High,Automators AI online-sales coaching FTC fraud case
+INC-04705,2023,intrusion,data-exfiltration,AI product attacked,ChatGPT/OpenAI,AML.T0012;AML.T0024;AML.T0056;AML.T0057,Medium,Italy bans ChatGPT over GDPR privacy concerns (Garante)
+INC-03639,2024,intrusion,jailbreak,AI product attacked,ChatGPT/OpenAI,AML.T0010;AML.T0012;AML.T0048;AML.T0050;AML.T0051;AML.T0053;AML.T0054;AML.T0057,High,ChatGPT details how to make homemade bombs after safety bypass
+INC-04526,2023,fraud/impersonation,misinformation,AI used as weapon,ChatGPT/OpenAI,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,ChatGPT falsely accuses Mark Walters of fraud and embezzlement (US defamation suit)
+INC-03714,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0056;AML.T0115.001,High,Fabricated Marcos Jr. audio clip calling for military response to China circulates online
+INC-05114,2022,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,High,FTX CEO Sam Bankman-Fried deepfake crypto-recovery scam
+INC-04628,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Drake / The Weeknd AI voice-cloning 'Heart on My Sleeve'
+INC-06492,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0010;AML.T0012;AML.T0024;AML.T0053;AML.T0057,High,"Data breach reveals data of 400,000+ ProctorU users"
+INC-04291,2024,fraud/impersonation,adversarial-input,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0053;AML.T0115.001,Medium,Thomson Reuters Fraud Detect 'incorrectly' identifies fraud against welfare claimants
+INC-02773,2025,fraud/impersonation,data-exfiltration,AI product attacked,ChatGPT/OpenAI,AML.T0012;AML.T0048;AML.T0057;AML.T0115.001,Medium,Italian privacy watchdog opens investigation into OpenAI Sora
+INC-14602,2026,intrusion,other,unclear,Llama/Meta AI,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0056;AML.T0057,Medium,Hackers use Meta AI support chatbot to takeover Instagram accounts
+INC-14603,2026,intrusion,other,unclear,ChatGPT/OpenAI,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0056;AML.T0057,Medium,"OpenAI models escape test, hack Hugging Face for answers"
+INC-00069,2026,intrusion,other,unclear,,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0056;AML.T0057,Medium,AI agent hacks McKinsey employee chatbot
+INC-02682,2025,intrusion,other,unclear,ChatGPT/OpenAI;Claude,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0056;AML.T0057,Medium,"Hacker used Claude, ChatGPT to steal Mexican government data"
+INC-01239,2026,intrusion,malware,AI used as weapon,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,Infostealer malware steals OpenClaw AI assistant data
+INC-01900,2026,intrusion,other,unclear,,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0057,Medium,Thousands of OpenClaw AI agent servers exposed to hackers
+INC-03044,2025,intrusion,other,unclear,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,Pro-Ukrainian hackers use AI-generated decoy documents to infiltrate Russian defence industry
+INC-05086,2022,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0053;AML.T0056;AML.T0115.001,Medium,Deepfake ads lure users into EUR 700m crypto scam
+INC-02778,2025,intrusion,other,unclear,ChatGPT/OpenAI,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,Japanese student launches ChatGPT-powered cyberattack against internet cafe chain
+INC-02424,2025,intrusion,other,unclear,Claude,AML.T0010;AML.T0012;AML.T0053;AML.T0056;AML.T0057,Medium,Chinese hackers use Anthropic AI agent to attack foreign entities
+INC-02961,2025,intrusion,deepfake,AI used as weapon,ChatGPT/OpenAI,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,Medium,North Korean hackers use ChatGPT to make deepfake military IDs
+INC-02642,2025,fraud/impersonation,deepfake,AI used as weapon,Gemini,AML.T0048.003;AML.T0115.001,Medium,Google's Veo3 creates convincing election fraud video deepfakes
+INC-03373,2025,intrusion,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,White House chief of staff targeted in AI-powered security breach
+INC-02343,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,Medium,Audio deepfake scam imitates Italian defence minister Guido Crosetto
+INC-04093,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,Medium,Police arrest 45 in 12 billion won deepfake romance scam
+INC-04185,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,Medium,Scammers impersonate Indonesia president using AI videos
+INC-04204,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,"Singapore actor Laurence Pang loses SGD 35,000 in AI romance scam"
+INC-04267,2024,fraud/impersonation,other,unclear,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,"Thai beauty queen robbed of USD 118,000 in AI-assisted scam"
+INC-04879,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,Spanish police arrest six people for USD 20m AI-powered investment scams
+INC-02647,2025,fraud/impersonation,other,unclear,ChatGPT/OpenAI,,Medium,GPT-4o generation of realistic fake receipts raises scam concerns
+INC-02575,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,Financial analyst cloned in AI-powered social media scam
+INC-04323,2024,intrusion,other,unclear,ChatGPT/OpenAI,AML.T0048.003;AML.T0053;AML.T0056,Medium,"Unreleased Sora model leaked online in protest against artistic ""exploitation"""
+INC-03504,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,AI-manipulated video of Brazilian footballer Ronaldo scams online gamers
+INC-04244,2024,intrusion,other,unclear,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,Study: Language models gather and pass personal info to hackers
+INC-03533,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,Al account recovery scam calls target Gmail users
+INC-04024,2024,fraud/impersonation,other,unclear,,AML.T0056,Medium,Music producer accused of using AI songs to scam streaming platforms
+INC-03681,2024,fraud/impersonation,misinformation,AI used as weapon,Copilot,AML.T0115.001,Medium,Copilot falsely accuses journalist of being a child molester and fraudster
+INC-04150,2024,intrusion,other,unclear,,AML.T0010;AML.T0012;AML.T0048;AML.T0050;AML.T0053;AML.T0056;AML.T0057,Medium,"Report: AI companion apps ""relentlessly"" pry and exploit user data"
+INC-03994,2024,intrusion,phishing,AI used as weapon,Copilot,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,Microsoft Copilot can be turned into automated phishing machine
+INC-03726,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0056;AML.T0057;AML.T0115.001,Medium,Deepfakes of UK health expert used to promote health scams
+INC-04899,2023,intrusion,rce,AI product attacked,Gemini,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,"Study: Google Bard lets users generate phishing emails, ransomware"
+INC-04064,2024,fraud/impersonation,deepfake,AI used as weapon,ChatGPT/OpenAI,AML.T0048.003;AML.T0115.001,Medium,OpenAI bans bot impersonating US presidential candidate
+INC-03913,2024,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0056;AML.T0115.001,Medium,Iranian hackers interrupt TV streaming services with deepfake Gaza news
+INC-03831,2024,intrusion,other,unclear,ChatGPT/OpenAI,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,GPT-4 able to hack websites without human help
+INC-04772,2023,intrusion,misinformation,AI used as weapon,ChatGPT/OpenAI,AML.T0010;AML.T0012;AML.T0048;AML.T0050;AML.T0053;AML.T0057,Medium,Nation state hackers use ChatGPT to improve cyberattacks
+INC-03464,2024,intrusion,other,unclear,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,AI hiring chatbot hack violates applicants' privacy
+INC-04893,2023,intrusion,phishing,AI used as weapon,ChatGPT/OpenAI,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,"Study: ChatGPT generates plausible phishing emails, malware"
+INC-04600,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,Medium,Deepfake Justin Trudeau endorses Petro-Canada scam
+INC-04463,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Audio AIs impersonate former South Sudan leader Omar al-Bashir
+INC-04599,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,Medium,"Deepfake IDs used in HKD 200,000 bank fraud"
+INC-04557,2023,fraud/impersonation,misinformation,AI used as weapon,ChatGPT/OpenAI,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,ChatGPT-powered Fox8 botnet promotes Bitcoin fraud
+INC-04856,2023,fraud/impersonation,other,unclear,,,Medium,Scammer sells fake AI-generated Frank Ocean songs
+INC-04567,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,"Chinese scammer uses AI to defraud 'friend' of USD 622,000"
+INC-04857,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,"Scammers clone teenager's voice, threaten kidnapping"
+INC-05088,2022,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,Medium,Deepfake Mark Ruffalo scams manga artist Chikae Ide
+INC-05057,2022,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,Medium,Binance CCO Partick Hillmann impersonated in deepfake scam
+INC-05876,2021,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0053;AML.T0056;AML.T0115.001,High,Teenager attempts to extort Lauren Book using deepfake nude photos
+INC-05539,2021,intrusion,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,Chinese government facial recognition system hacked by tax fraudsters
+INC-05570,2021,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,DeepTomCruise fake videos impersonate actor on TikTok
+INC-06867,2020,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Queen Elizabeth II impersonated in deepfake Christmas message
+INC-07111,2020,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Vocal Synthesis Jay-Z AI voice impersonations
+INC-06505,2020,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,Medium,Deepfake romance scammer swindles California widow
+INC-07205,2019,intrusion,deepfake,AI used as weapon,,AML.T0115.001,Medium,LinkedIn political espionage
+INC-07262,2019,fraud/impersonation,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0053;AML.T0057,Medium,"ZAO face swapping app raises privacy, fraud concerns"
+INC-06872,2020,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Reported AI-Cloned Voice Used to Deceive Hong Kong Bank Manager in Purported $35 Million Fraud Scheme
+INC-07183,2019,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Fraudsters Used AI to Mimic Voice of a UK-Based Firm's CEO's Boss
+INC-05017,2022,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003;AML.T0115.001,High,AI-Generated Faces Used by Scammers to Pose as a Law Firm in Boston
+INC-05089,2022,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Deepfake of FTX's Former CEO Posted on Twitter Aiming to Scam FTX Collapse Victims
+INC-04958,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"TikTok User Videos Impersonated Andrew Tate Using AI Voice, Prompting Ban"
+INC-04785,2023,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Online Scammers Tricked People into Sending Money Using AI Images of Earthquake in Turkey
+INC-04674,2023,intrusion,other,unclear,ChatGPT/OpenAI,AML.T0048.003;AML.T0115.001,High,"Grant Reviewers Reportedly Fed Applications into Generative AI to Produce Reports, Allegedly Breaching Confidentiality"
+INC-04992,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Voice deepfake targets bank in failed transfer scam
+INC-04615,2023,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Deepfake Voice Exploit Compromises Retool's Cloud Services
+INC-04874,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Social Media Scammers Used Deepfakes of Taylor Swift and Several Other Celebrities in Fraudulent Le Creuset Cookware Giveaways
+INC-03548,2024,intrusion,phishing,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Alleged State-Sponsored Hackers Escalate Purported Phishing Attacks Using Artificial Intelligence
+INC-03635,2024,intrusion,other,unclear,ChatGPT/OpenAI,AML.T0012;AML.T0057,High,Alleged ChatGPT Account Compromise Reportedly Led to Unintended Data Exposure
+INC-03869,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,High School Athletic Director in Baltimore County Allegedly Created Racist Deepfake Audio Impersonating Principal
+INC-04189,2024,fraud/impersonation,deepfake,AI used as weapon,Voice/video generators,AML.T0048;AML.T0048.003;AML.T0115.001,High,Scammers Using Deepfakes of Women's Faces and Voices for False and Offensive Advertisements
+INC-04188,2024,fraud/impersonation,deepfake,AI used as weapon,ChatGPT/OpenAI,AML.T0048;AML.T0048.003;AML.T0115.001,High,Scammers Using AI to Impersonate Small Businesses
+INC-04076,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Over 400 Purportedly AI-Driven Scams Reportedly Led to $8M Loss for Australians in 2023
+INC-03776,2024,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,Fake AI-Generated Law Firms Sent Fake DMCA Notices to Increase SEO
+INC-04157,2024,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Reported Use of Purportedly AI-Generated Student Accounts in Online College Courses
+INC-03618,2024,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Cartels Reportedly Using AI to Expand Operations into Financial Fraud and Human Trafficking
+INC-04819,2023,intrusion,supply-chain,AI product attacked,DeepSeek,AML.T0010;AML.T0010.001;AML.T0048;AML.T0048.003;AML.T0050;AML.T0062;AML.T0115.001,High,Purportedly Hallucinated Software Packages with Potential Malware Reportedly Downloaded Thousands of Times by Developers
+INC-03487,2024,fraud/impersonation,deepfake,AI used as weapon,ChatGPT/OpenAI,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,AI-Enabled Fraud Schemes Reportedly Increasing Consumer Harm and Challenging Detection
+INC-04974,2023,intrusion,jailbreak,AI product attacked,ChatGPT/OpenAI;Dark-web LLMs,AML.T0048;AML.T0050;AML.T0051;AML.T0053;AML.T0054,Critical,Underground Market for LLMs Powers Malware and Phishing Scams
+INC-04183,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Scammers Allegedly Use Deepfake of Hong Kong Entertainer Andy Lau to Steal NT$2.64 Million from Fan
+INC-04025,2024,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,Critical,Music Producer Michael Smith Reportedly Arrested for Allegedly Using AI-Generated Songs in $10 Million Streaming Scam
+INC-03449,2024,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Critical,AI 'Nudify' Apps Used as Tools for Blackmail and Extortion
+INC-04356,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,WiseTech Global CEO Richard White Reportedly Deepfaked in Multiple Attempts to Scam Staffers
+INC-03660,2024,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Child Predators Are Reportedly Generating Deepfake Nudes of Children to Extort Them
+INC-05112,2022,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Fraudsters Use Deepfake Video of Tim Cook to Promote Apple Crypto Scam on YouTube
+INC-03708,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Deepfake ID Sales Allegedly Persist as OnlyFake Reportedly Relaunches with New Fraud Tools
+INC-03705,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Deepfake Elon Musk Videos Have Reportedly Contributed to Billions in Fraud
+INC-03403,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,53% of American and British Businesses Report Attacks by AI-Powered Deepfake Scams in 2024
+INC-04122,2024,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake of Brian May Allegedly Exploited in Scam Offering Fake Queen Backstage Tickets
+INC-04196,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Senator Ben Cardin Reportedly Received a Purported Deepfake Zoom Call Impersonating Former Ukrainian Foreign Minister Dmytro Kuleba
+INC-03919,2024,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Jennifer Aniston’s Likeness Allegedly Exploited in Purported Deepfake Collagen Supplement Promotion
+INC-04101,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0015;AML.T0016.002;AML.T0043;AML.T0048;AML.T0048.003;AML.T0115.001,High,ProKYC Tool Allegedly Facilitates Deepfake-Based Account Fraud on Cryptocurrency Exchanges
+INC-03662,2024,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,Critical,China Targets AI-Driven Fraud and Deepfake Scandals with New Crackdowns
+INC-04127,2024,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purportedly AI-Driven Phishing Scam Uses Spoofed Google Call to Attempt Gmail Breach of Security Expert
+INC-04159,2024,intrusion,other,unclear,,AML.T0012;AML.T0048;AML.T0057,High,Reportedly Hacked AI-Powered Robot Vacuums Allegedly Used for Surveillance and Harassment
+INC-04175,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Salt Lake City Police Chief Mike Brown's Voice and Image Misused in AI-Generated Scam
+INC-03718,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Deepfake Reportedly Used in Attempted Real Estate Fraud in Hallandale Beach, Florida"
+INC-03802,2024,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Generative AI Allegedly Used to Facilitate $255,000 Real Estate Fraud Scheme"
+INC-03975,2024,intrusion,data-exfiltration,AI product attacked,,AML.T0024;AML.T0048;AML.T0048.003;AML.T0053;AML.T0057;AML.T0115.001,High,Meeten Malware Campaign Reportedly Undermines Web3 Security Using AI-Legitimized Branding
+INC-04155,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Reported Deepfake Video of Elon Musk Announcing $20 Million Cryptocurrency Giveaway Circulating on Social Media
+INC-03483,2024,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,AI Voice Cloning of Ari Melber Allegedly Exploited in Scam Targeting Elderly Woman
+INC-03680,2024,fraud/impersonation,deepfake,AI used as weapon,Llama/Meta AI,AML.T0048;AML.T0048.003;AML.T0115.001,High,Coordinated Deepfake Campaign Reportedly Impersonating Rishi Sunak Promoted Fraudulent Quantum AI Investment Platform on Meta
+INC-03722,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Deepfake Videos Allegedly Used to Defraud Canadian Immigrants Out of Thousands of Dollars
+INC-03874,2024,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,HTML/Nomani Deepfake Phishing Campaigns Allegedly Use AI-Generated Content to Defraud Social Media Users
+INC-04166,2024,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Romance Scammer 'Alla Morgan' Allegedly Exploits Deepfake Technology to Defraud Victim of £17,000"
+INC-04187,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Scammers Reportedly Using Deepfakes of Health Experts and Public Figures in Australia to Sell Health Supplements and Give Harmful Advice
+INC-02215,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,Critical,Purported AI Voice Scam Reportedly Targets Westchester Parents with Fake Kidnapping Ransom Calls
+INC-02270,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged Deepfake of New Zealand Endocrinologist Reportedly Promotes Misleading Diabetes Claim
+INC-02219,2025,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,Critical,AI-Assisted Ransomware Campaign by FunkSec Allegedly Targets Over 80 Victims
+INC-04184,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Scammers Allegedly Use Deepfake Technology to Pose as Leonor, Princess of Asturias, in Fraud Scheme"
+INC-03540,2024,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0057,Critical,Alleged AI-Powered Call Center Breach Exposes Over 10 Million Conversations in the Middle East
+INC-04257,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Taranaki, New Zealand Resident Allegedly Defrauded of $224K in Bitcoin Scam Using Deepfake of Prime Minister Christopher Luxon"
+INC-03973,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Matryoshka Campaign Allegedly Uses Deepfakes to Impersonate Academics for Pro-Russian Propaganda
+INC-02259,2025,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,"Alleged AI-Driven Phishing Scam Impersonates Maine Town Official to Falsely Request $22,500"
+INC-05362,2022,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Yahoo Boys Allegedly Employ Real-Time Deepfake Technology in Romance Scams
+INC-04365,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Yahoo Boys and Scammers from Morocco Allegedly Target U.S. Widows and Vulnerable Individuals with 'Artificial Patriot' Scams
+INC-03383,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Yahoo Boys Allegedly Using AI-Generated News Videos to Blackmail Sextortion Victims
+INC-03543,2024,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,Alleged Deepfake of Luis Suárez Used to Scam Uruguayans in Fake Investment Scheme
+INC-02271,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged Deepfake of Whoopi Goldberg Reportedly Used in Fake Weight-Loss Supplement Ads on Instagram
+INC-02217,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,AI-Aided Scam in Thailand Allegedly Impersonates Police to Defraud 163 Victims
+INC-04125,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Russian-Linked Network Allegedly Used Deepfake of Maria Ressa on Facebook and Bing to Promote Cryptocurrency Scam Targeting Filipinos
+INC-02272,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Alleged Deepfake Scam Reportedly Promoted Trump Golden Eagles Project as Investment Opportunity
+INC-02696,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,Critical,"Hong Kong Authorities Seize HK$34M in Alleged Deepfake Scam Targeting Victims in Taiwan, Singapore, and Malaysia"
+INC-02965,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,"Nottingham Gallery Owner Allegedly Defrauded by Deepfake Impersonating Pierce Brosnan, Reportedly Leading to Business Closure"
+INC-03704,2024,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,Deepfake Cryptocurrency Scam Allegedly Impersonates Italian President Sergio Mattarella and Prime Minister Giorgia Meloni
+INC-03162,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Reported Deepfake of Maltese Prime Minister Robert Abela and Journalist Mark Laurence Zammit Used to Promote Fraudulent Investment
+INC-03711,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Deepfake of Former Prime Minister of Malta Joseph Muscat Allegedly Promotes Nord Invest Scam
+INC-02370,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Bolivian Criminal Network Allegedly Used Deepfake of Education Minister to Defraud at Least 19 Victims in Employment Scam
+INC-03110,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,"Purportedly AI-Assisted Impersonation of Martin Henderson in Romance Scam Leads to Reported NZ$375,000 Fraud"
+INC-08173,2025,intrusion,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,Critical,Cybercriminals Reportedly Exploited Google’s G.Co Subdomain and Spoofed Caller ID in AI-Driven Phishing Attack on Hack Club Founder
+INC-05050,2022,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Arizona Residents Reportedly a Frequent Target of AI-Driven Romance Scams
+INC-04309,2024,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,Critical,"Two Members of Highline Public Schools Community in King County, Washington Reportedly Targeted in Deepfake Kidnapping Scam"
+INC-02279,2025,intrusion,phishing,AI used as weapon,ChatGPT/OpenAI;Dark-web LLMs,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged FraudGPT-Enabled Phishing Attack Spoofs ChatGPT Subscription Service to Steal Credentials
+INC-04047,2024,intrusion,malware,AI used as weapon,,AML.T0012;AML.T0057,Critical,NullBulge's AI-Powered Malware Allegedly Compromises Disney Employee and Internal Data
+INC-03723,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Deepfake Videos of Barbara O’Neill Allegedly Used in Health Scam Targeting Social Media Users
+INC-02390,2025,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Chatbots Allegedly Used in Romance Scams Targeting Nearly One-Third of New Zealand's Dating App Users
+INC-03812,2024,intrusion,deepfake,AI used as weapon,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0057;AML.T0115.001,High,Global Cybercrime Network Storm-2139 Allegedly Exploits AI to Generate Deepfake Content
+INC-02492,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Deepfake Video of Indonesian President Prabowo Subianto and Other Officials Reportedly Used in Scam to Defraud Citizens Across 20 Provinces
+INC-03249,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,"Tbilisi-Based Call Center Allegedly Uses AI-Driven Scripts to Defraud Over 6,000 Victims of $35 Million"
+INC-02639,2025,intrusion,other,unclear,Gemini,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Google Reports Alleged Gemini-Generated Terrorism and Child Exploitation to Australian eSafety Commission
+INC-03024,2025,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Phishers Allegedly Using AI-Generated Video of YouTube CEO Neal Mohan to Target Creators
+INC-03783,2024,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Ferrari Executive Targeted by AI Deepfake Scam Impersonating CEO Benedetto Vigna
+INC-03197,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Scammers Allegedly Using Deepfake Technology to Impersonate Prime Minister of Armenia Nikol Pashinyan
+INC-02384,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Canadian Fraud Ring Allegedly Used AI Voice Cloning in Multi-Year $21 Million Grandparent Scam Targeting Elderly Americans Across 46 States
+INC-03075,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Audio Allegedly Impersonates U.S. Secretary of State Marco Rubio in Starlink Disinformation Campaign
+INC-02227,2025,intrusion,other,unclear,,AML.T0048.003;AML.T0115.001,High,AI-Generated OB-GYN Health Influencers on TikTok Used Fake Medical Credentials to Promote Dubious Advice
+INC-02421,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Chinese Actor and CPPCC Member Jin Dong Allegedly Impersonated by AI Deepfake Scammers to Mislead and Defraud Fans
+INC-03200,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Scammers Reportedly Using Deepfake Video Calls to Impersonate Executives in Singapore and Orchestrate Corporate Bank Transfers
+INC-04186,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Scammers Reportedly Used AI Voice Clone and YouTube Footage to Impersonate WPP CEO in Unsuccessful Scam Attempt
+INC-02493,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Deepfake Videos Allegedly Use AI-Generated Voice Clone of Singapore Prime Minister Lawrence Wong to Promote Scams
+INC-04428,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged Deepfake of Singapore Prime Minister Lee Hsien Loong Promotes Cryptocurrency Scam in Fake Interview
+INC-04181,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Scammers Allegedly Manipulate 2023 Speech of Singapore Senior Minister Lee Hsien Loong to Spread Deepfake Investment Fraud
+INC-04427,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged Deepfake of Singapore Deputy Prime Minister Lawrence Wong Falsely Shows Him Endorsing Commercial Products
+INC-02263,2025,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged AI-Generated IRS Scam Websites Used to Defraud U.S. Taxpayers
+INC-04566,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Chinese Businessman Reportedly Defrauded of 4.3 Million Yuan by AI-Generated Deepfake Impersonating Friend
+INC-02341,2025,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Attackers Reportedly Deployed Simulated AI Support Chatbot to Trick Instagram Business Users into Adding Malicious 2FA Login
+INC-02230,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,"AI-Generated Voice Purporting to Be Daughter Allegedly Used to Coerce $2,000 from Colorado Mother"
+INC-02603,2025,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0057;AML.T0115.001,Critical,"GenNomis AI Database Reportedly Exposes Nearly 100,000 Deepfake and Nudify Images in Public Breach"
+INC-02490,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Deepfake of Bermuda Premier David Burt Promotes Investment Scam Using Royal Gazette Branding
+INC-02213,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,AI Voice Clone of Texas Woman Used in Distress Scam Targeting Brother in Port Neches
+INC-02269,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Alleged Deepfake Investment Scam in Spain Defrauds 208 Victims of €19 million ($20.9 million)
+INC-02261,2025,fraud/impersonation,other,unclear,ChatGPT/OpenAI,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Alleged AI-Generated Clone of Exante Brokerage Used to Defraud U.S. Investor via JPMorgan Account
+INC-03923,2024,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,Kenyan Journalist Jeff Koinange Depicted Endorsing Gambling App in Purported AI-Generated Deepfake
+INC-02337,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Aspiring Artist Cherelle Kozak Reportedly Targeted by AI-Powered Impersonation of Rapper Fat Joe
+INC-04986,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,Video Allegedly Altered by AI Reportedly Spreads Claim of Nigerian Doctor's Hypertension Cure
+INC-03071,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported AI-Manipulated News Clip Fabricates Explosion and Doctor's Murder Plot for Scam
+INC-02901,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,Critical,Microsoft Reportedly Blocks 1.6 Million Bot Signup Attempts Per Hour Amid Global AI-Driven Fraud Surge
+INC-03198,2025,fraud/impersonation,deepfake,AI used as weapon,ChatGPT/OpenAI,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Scammers Reportedly Use AI Tools to Impersonate Students and Obtain Federal Aid
+INC-02558,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,Fact-Checking Finds Reportedly AI-Generated Video Misattributed Hypertension Cure Endorsements to Taiwo Ajai-Lycett and Chinonso Egemba
+INC-02921,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,"Mother in Louisville, Kentucky Describes Phone Scam Involving Purported AI-Generated Voice of Her Daughter"
+INC-02345,2025,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Australian Analyst Allegedly Targeted by Scam Using Purportedly Sophisticated AI-Generated Corporate Materials
+INC-04022,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Mumbai Businessman Reportedly Defrauded via Purported AI-Cloned Voice Impersonating Son
+INC-02322,2025,intrusion,malware,AI used as weapon,Claude,AML.T0048;AML.T0048.003;AML.T0051;AML.T0053;AML.T0054;AML.T0115.001,High,"Anthropic Report Details Claude Misuse for Influence Operations, Credential Stuffing, Recruitment Fraud, and Malware Development"
+INC-03068,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported AI-Generated Videos Impersonating President of Malta Myriam Spiteri Debono Circulate on Social Media in Alleged Crypto Scam Campaigns
+INC-02765,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Institute for Strategic Dialogue Reports Russian-Aligned Operation Overload Using Purported AI-Generated Impersonations Across January to March 2025
+INC-02375,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Brazilian Authorities Reportedly Link AI-Generated Marcos Mion Videos to Purported Fake Restaurant Promotions in Brazil
+INC-03073,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported AI-Manipulated Videos of Cypriot Officials Circulated in Alleged Investment Fraud
+INC-03539,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged AI-Generated Scam Uses Bank of Cyprus Branding to Solicit Investments
+INC-04182,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Scammers Allegedly Use AI-Generated Avatars to Impersonate Friends in Houston, Texas and Solicit Money"
+INC-02698,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Hong Kong Syndicate Allegedly Used AI-Generated Facial Composites to Open Bank Accounts
+INC-02290,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Alleged Use of Purported AI-Generated Identities to Defraud FTX Claims Buyers of $5.6M
+INC-02234,2025,intrusion,phishing,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,AI-Powered Presentation Tool Gamma Implicated in Multi-Stage Phishing Campaign
+INC-08175,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,FBI Reports Ongoing Vishing and Smishing Campaign Allegedly Targeting Government Officials Using Purportedly AI-Generated Voices
+INC-03154,2025,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Reported AI-Generated Clickbait Targets Adolescents in Rockingham County, North Carolina"
+INC-08176,2025,intrusion,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,Purported AI-Generated Video Depicts Ibrahim Traoré of Burkina Faso Delivering Speech on Western Exploitation
+INC-04154,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Reported Audio Deepfake Impersonating CEO Karim Toubba Targets LastPass Employee via WhatsApp
+INC-03079,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Featuring Dr. Rinki Murphy and Jack Tame Reportedly Used to Promote Diabetes Scam in New Zealand
+INC-02893,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Michigan Woman Defrauded in Alleged Tinder Romance Scam Using Purportedly AI-Generated Video Calls
+INC-02377,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Bulgarian Tennis Player Grigor Dimitrov Alleges Deepfake Scam Promoting Fraudulent Investment Scheme Using His Likeness
+INC-02266,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged AI-Manipulated Video Uses Macau Chief Executive Sam Hou Fai's Likeness in Investment Scam
+INC-03157,2025,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Reported AI-Generated Video Call Impersonation of Cryptocurrency Analyst Leads to Alleged Malware Installation and Account Theft
+INC-03196,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Scammer Reportedly Used AI Voice Clone of WCPO Cincinnati Meteorologist in Facebook Fraud Attempts
+INC-08178,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged Deepfake Investment Scam Uses Economist David Rosenberg's Likeness on Meta Platforms
+INC-02960,2025,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,North Korea-Linked Actors Allegedly Use AI Executive Deepfakes in Zoom Phishing Targeting Web3 Employee
+INC-08177,2021,fraud/impersonation,data-exfiltration,AI product attacked,,AML.T0012;AML.T0017;AML.T0024;AML.T0025;AML.T0029;AML.T0048;AML.T0048.001;AML.T0048.003;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0054;AML.T0056;AML.T0057;AML.T0066;AML.T0115.001,Critical,Ongoing Purported AI-Assisted Identity Fraud Enables Unauthorized Access to Western Companies by North Korean IT Workers
+INC-02275,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged Deepfake Videos Impersonate Lithuanian Politicians and Doctors in Purported Cross-Border Scam Network
+INC-02265,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged AI-Generated Videos Depict Bangladesh's Chief Adviser Muhammad Yunus Endorsing Betting Platforms
+INC-02258,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Alleged AI Deepfake Videos Used to Lure Simcoe County, Ontario Residents in Crypto Scam"
+INC-03176,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Reportedly Sustained Multi-Celebrity Deepfake Persona Scam Targeting Vulnerable Southampton Resident
+INC-03169,2025,intrusion,misinformation,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Reported Use and Circulation of AI-Generated Misinformation and Fake Victim Visuals After Air India 171 Crash
+INC-03171,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Reported Use of Deepfake Video Impersonating Owen Wilson in Romance Scam with Fake Job Payments
+INC-02530,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Docomo Pacific CEO Reports Mother Targeted by Purported AI-Enabled Scam in Guam
+INC-02268,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged Deepfake Identity Scam Uses Miami Beach Realtor's Likeness to Defraud Victim in the United Kingdom in Purported Romance Scam
+INC-03108,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Purported Widespread Use of AI-Generated Deepfake Videos Impersonate Malaysian Leaders in Investment Scams
+INC-03089,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake of Sri Lankan President Anura Kumara Dissanayake Promotes Alleged Fraudulent Government Investment Scheme
+INC-02420,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,"Chicago Veteran Reportedly Loses $10,000 in Purported Deepfake Cryptocurrency Fraud Posing as Elon Musk"
+INC-08179,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Former Namibian First Lady Monica Geingos's Likeness Reportedly Used in Purported AI-Generated Video Investment Scams
+INC-03134,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,Purportedly AI-Generated Videos Impersonate Brunei Police in 'Real Money Magic' Scam on Social Media
+INC-03091,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Scam Videos Depict JG Summit Holdings President and CEO Lance Gokongwei Allegedly Endorsing Illicit Investments
+INC-03097,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Video of Donald Trump at NATO Summit Allegedly Used in YouTube Crypto Scam
+INC-03159,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Reported AI‑Generated Deepfake Impersonations of Public Figures Allegedly Used in Coordinated Stock Pump‑and‑Dump Scheme Targeting Israeli Investors
+INC-03224,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,South Korean Actor Kim Seon-ho's Likeness Allegedly Misused in Purported Deepfake Impersonation Attempts Demanding Money
+INC-02622,2025,fraud/impersonation,deepfake,AI used as weapon,ChatGPT/OpenAI,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,"Google AI Overviews and ChatGPT Reportedly Cited Fraudulent Cruise Hotline, Allegedly Enabling Successful Scam"
+INC-02785,2025,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,"Joann Fabrics Shoppers Reportedly Defrauded by AI-Generated Scam Sites, Part of Purported Wave of ~100,000 Fake Domains Across 194 Brands"
+INC-03931,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,"L.A. Woman Reportedly Defrauded of $81,000 and $350,000 Condo Proceeds in Romance Scam Using Purported Deepfake Videos of Actor Steve Burton"
+INC-03056,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,"Purported AI-Generated Deepfake of Spiritual Leader Sadhguru Used in Investment Scam Allegedly Defrauding Bengaluru Woman of ₹3.75 Crore (~$425,000)"
+INC-03055,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported AI-Generated Deepfake of Irish Fine Gael Presidential Candidate Heather Humphreys Used in Fake Investment Videos on Meta Platforms
+INC-02959,2025,intrusion,deepfake,AI used as weapon,ChatGPT/OpenAI,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,Critical,North Korea's Kimsuky Group Reportedly Uses AI-Generated Military ID Deepfakes in Phishing Campaign
+INC-03112,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Purportedly AI-Cloned Voice of Daughter Used in Elaborate Bond Scam Targeting Retired Couple in Hillsborough County, Florida"
+INC-02797,2025,intrusion,data-exfiltration,AI product attacked,,AML.T0010;AML.T0024;AML.T0040;AML.T0048;AML.T0050;AML.T0053;AML.T0057,High,LAMEHUG Malware Reportedly Integrates Large Language Model for Real-Time Command Generation in a Purported APT28-Linked Cyberattack
+INC-03118,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,"Purportedly AI-Generated Deepfake Ads on Facebook Reportedly Impersonate Trump, Musk, Ocasio-Cortez, Warren, Sanders, and Leavitt to Promote Fraudulent Rebates"
+INC-03119,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Purportedly AI-Generated Deepfake Ads on Instagram Impersonate Gisele Bündchen and Other Celebrities in Brazilian Fraud Scheme
+INC-02978,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Old Mutual Reportedly Warns of Purported Deepfake Videos Impersonating Chairman Trevor Manuel in Investment Scams
+INC-02951,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"New Zealand Financial Markets Authority (FMA), Te Mana Tātai Hokohoko, Reportedly Flags Purported Deepfake Pump-and-Dump Network Using Social Media Ads"
+INC-02428,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Chinese-Backed Operation Reportedly Used AI-Generated Deepfake Videos of Indian Stock Experts in Investment Fraud Campaign
+INC-06866,2020,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Quantum AI and Related AI-Themed Investment Scams Reportedly Used Deepfake Endorsements and Spoofed Media Sites to Solicit Investments
+INC-02274,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged Deepfake Video of Anthony Albanese Promotes Fake AUFIRST 'Tax Dividend' Trading Platform
+INC-03057,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported AI-Generated Deepfake of Steven Bartlett Reportedly Used to Promote Fake WhatsApp Investment Group
+INC-03054,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Purported AI-Generated Deepfake of Infosys Co-Founder N. R. Narayana Murthy Used in Investment Scam Allegedly Defrauding 79-Year-Old Bengaluru Woman of ₹35 Lakh (~$40,000)"
+INC-03066,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Purported AI-Generated Video Reportedly Used in RM5,800 (~$1,400) Sextortion Attempt Targeting Malaysian Minor via Telegram"
+INC-03059,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported AI-Generated Deepfake Videos Reportedly Used in Swedish Scam Campaign Impersonating Doctors Agnes Wold and Anders Tegnell
+INC-03122,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Purportedly AI-Generated Deepfake Reportedly Used to Impersonate DNB Bank CFO and CEO in Live Teams Meeting
+INC-03051,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported AI Deepfake Reportedly Impersonated Thai PBS World Anchor and Miss Universe CEO in Fraudulent Investment Video
+INC-03090,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Reportedly Circulated on Facebook Impersonating Thai PBS World Anchors and Business Figures to Solicit Investments
+INC-03121,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,"Purportedly AI-Generated Deepfake Investment Ads Defrauded 5,000 Swedish Investors of 500 Million SEK"
+INC-04121,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Purported Deepfake of Andrew Forrest Used to Promote Fraudulent 'Quantum AI' Crypto Platform on Facebook
+INC-02262,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Alleged AI-Generated Deepfake of Western Australia Premier Roger Cook Used in YouTube Investment Scam
+INC-02426,2025,intrusion,other,unclear,Claude,AML.T0012;AML.T0017;AML.T0024;AML.T0025;AML.T0029;AML.T0048;AML.T0048.003;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0054;AML.T0055;AML.T0056;AML.T0057;AML.T0066;AML.T0115.001,Critical,Chinese State-Linked Operator (GTG-1002) Reportedly Uses Claude Code for Autonomous Cyber Espionage
+INC-03088,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake of Greek Finance Minister Kyriakos Pierrakakis Reportedly Used in Facebook Investment Scam
+INC-03114,2025,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Purportedly AI-Enhanced Phishing Campaign Allegedly Impersonates Australian Government Services in Large-Scale Welfare Scam
+INC-04794,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Ottawa Couple Reportedly Loses CA$177,023 After Purported Deepfake Elon Musk Investment Scam"
+INC-04840,2023,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Reported Use of AI Voice and Identity Manipulation in the Ongoing 'Phantom Hacker' Fraud Scheme
+INC-14909,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Purportedly AI-Generated Jason Momoa Deepfake Used in Romance Scam Reportedly Defrauding British Widow of $600,000"
+INC-03100,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,Purported Deepfake-Based Facebook Impersonation Reportedly Targets Daughter of Scot in Coma
+INC-03094,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Video and Fake News Articles Allegedly Used to Impersonate Guernsey's Chief Minister in Investment Scam
+INC-02851,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Malta's Prime Minister Robert Abela Reportedly Deepfaked by a Ukrainian National in Cryptocurrency Fraud Targeting Local Residents
+INC-02277,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,"Alleged Fabricated News Sites and Deepfakes Impersonated Maltese Ministers, Financial Experts, and Media to Promote NethertoxAGENT Fraud"
+INC-04214,2024,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,South Korean Fraud Ring Allegedly Used Deepfake Identities to Traffic Victims into Cambodia Scam Operations
+INC-03081,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Impersonating Cyprus President Nikos Christodoulides Reportedly Defrauded Citizens of Thousands of Euros
+INC-02779,2025,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0057;AML.T0115.001,High,Japanese Teen Allegedly Uses AI-Generated Program to Breach Kaikatsu Frontier and Leak Data of 7.3 Million Customers
+INC-02578,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Florida Couple Reportedly Loses $45,000 in Alleged AI-Generated Elon Musk Impersonation Scam"
+INC-03082,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Purported Deepfake Impersonating Doctor Allegedly Used in $200,000 Investment Scam Targeting Florida Grandmother"
+INC-03084,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Impersonation of Elon Musk Used to Promote Fraudulent '17-Hour' Diabetes Treatment Claims
+INC-03085,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,"Purported Deepfake Investment Video Reportedly Used in Scam That Defrauded Turkish Couple of 1.5 Million Lira (~$35,000 USD)"
+INC-03213,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Shilpa Shetty Alleges AI-Enabled Impersonation and Misuse of Likeness in Mumbai High Court Filing
+INC-03156,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Reported AI-Generated Deepfake Videos Impersonating Elon Musk and Dragon’s Den Allegedly Used in Cryptocurrency Investment Scam Targeting Canadian Victims
+INC-03155,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,Reported AI-Generated Deepfake Romance Scam Allegedly Used to Steal One Bitcoin From Recently Divorced Investor
+INC-01698,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Purported Deepfake Impersonating Elon Musk Allegedly Defrauded Elderly U.S. Woman of $50,000 via Gift Card–to-Crypto Scam"
+INC-01703,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Videos Reportedly Impersonated Yanis Varoufakis on YouTube and Social Media
+INC-03077,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,Purported Deepfake Endorsements Reportedly Used to Promote Fraudulent Health and Investment Products in Montenegro and Bosnia and Herzegovina
+INC-01705,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,"Purportedly AI-Cloned Voice Allegedly Used to Defraud Play School Owner of ₹97,500 (~$1,080 USD) in Indore, India"
+INC-03074,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Advertisement Falsely Depicting Physician Endorsement Used to Sell Lipedema Cream to U.S. Patient Beth Holland
+INC-01730,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Reported AI Impersonations of Pastors Used in Online Donation and Influence Scams
+INC-03161,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Reported Deepfake Influencers on TikTok Allegedly Used to Promote Fraudulent Wellness Products
+INC-01700,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Reportedly Impersonated Consumer Adviser Clark Howard to Promote Auto-Insurance Quote Site
+INC-03096,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Purported Deepfake Video Impersonating Elton John Reportedly Induced Northeast Ohio Man to Authorize $20,000 in Scam Charges"
+INC-03083,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Impersonating Sudha Murty Reportedly Promoted Quantum AI India Investment Scam via Spoofed News Link
+INC-00608,2026,fraud/impersonation,other,unclear,Claude;DeepSeek,AML.T0012;AML.T0048;AML.T0057,Critical,"Anthropic Said DeepSeek, Moonshot, and MiniMax Used Fraudulent Accounts and Proxies to Illicitly Distill Claude Capabilities at Scale"
+INC-02495,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Deepfakes Reportedly Impersonated David Taylor-Robinson and Other UK Health Experts to Promote Wellness Nest Supplements
+INC-01695,2026,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported AI-Generated Nude Images Reportedly Used to Extort Wichita Man in Kansas
+INC-01691,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported AI-Generated Doctor Deepfakes Reportedly Used Guy's and St Thomas' Branding to Market Weight Loss Patches
+INC-03105,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Oprah Deepfake Reportedly Induced Utah Woman to Buy Misrepresented Weight Loss Supplements
+INC-01694,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported AI-Generated Inland Revenue Scam Ads Reportedly Impersonated New Zealand Commissioner Peter Mersi in Alleged Fake Crypto Tax Webinar
+INC-01699,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake of Ashley James Reportedly Used to Promote Weight Loss Pills
+INC-01697,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,High,Purported Deepfake Applicant Reportedly Impersonated Tokyo IT Executive Kenbun Yoshii During Online Job Interview
+INC-00678,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Bank of Italy Warned That Purported Deepfakes of Governor Fabio Panetta Were Used in Allegedly Fraudulent Investment Promotions
+INC-02325,2025,intrusion,jailbreak,AI product attacked,Claude,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0051;AML.T0053;AML.T0054;AML.T0057;AML.T0115.001,High,Anthropic's Claude Was Reportedly Jailbroken To Allegedly Help Steal Sensitive Mexican Government Data
+INC-03106,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,Critical,Purported Pornographic Deepfakes and Fake Accounts Reportedly Impersonated German TV Presenter and Actor Collien Fernandes
+INC-03113,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purportedly AI-Edited Obscene Clip Reportedly Impersonated Thai Actor Khunnapat Pichetworawut in Paid Scam
+INC-03123,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,Purportedly AI-Generated Facebook Video Allegedly Misused Skënder Brataj and Blendi Fevziu to Promote Purported Miracle Cream in Albania
+INC-01693,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported AI-Generated Impersonations of Albanian Cardiologist Spiro Qirko and Journalist Ilir Topi Were Reportedly Used on Facebook to Promote Hypertension Product in Kosovo
+INC-01702,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Video Reportedly Portrayed Nirmala Sitharaman Endorsing Investment Scheme
+INC-03099,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Purported Deepfake Videos Allegedly Impersonated Optometrist Joseph Allen to Promote Myopia-Reversal Eyedrops on TikTok
+INC-04988,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,Video with Reportedly AI-Generated Audio Purported to Show Croatian Footballer Luka Modrić Endorsing Immediate Matrix on Facebook Page Presented as N1 HR
+INC-04334,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,Video with Reportedly AI-Generated Media Purported to Show Croatian Immunologist Stipan Jonjić Promoting Anti-Parasite Product on Facebook
+INC-04335,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,Video with Reportedly AI-Generated Media Purported to Show Croatian Neurosurgeon Josip Paladino Endorsing Steplex in Fake TV Segment on Facebook
+INC-04336,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Video with Reportedly AI-Generated Media Purported to Show Croatian Physician Alemka Markotić Endorsing Hondrosol After False Murder Claim on Facebook
+INC-04131,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Purportedly AI-Manipulated Medical Scam Advertisement Reportedly Used Bulgarian TV Host and Physician's Likenesses
+INC-04118,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Purported Deepfake Facebook Advertisement Reportedly Used Bulgarian Actor and TV Host Mihail Bilalov's Likeness to Market Joint-Pain Product
+INC-04119,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,"Purported Deepfake Facebook Advertisement Reportedly Used Bulgarian Actor, Director, and Playwright Kamen Donev's Likeness to Market Joint-Pain Product"
+INC-00054,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Ahmedabad Aadhaar Fraud Racket Reportedly Used Purportedly AI-Generated Deepfakes to Change Businessman's Linked Mobile Number
+INC-03199,2026,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,"Scammers Reportedly Used AI-Generated Image of Missing Puppy Hazel to Solicit Fraudulent Vet Payment from St. Petersburg, Florida Couple"
+INC-01752,2026,fraud/impersonation,other,unclear,,AML.T0048;AML.T0048.003,Medium,"Scammers Reportedly Used AI-Generated Images of Missing Dog Archer to Solicit Fraudulent Vet Payment from Deltona, Florida Family"
+INC-03069,2026,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,"Purported AI-Generated Voice Reportedly Impersonated Washington Man's Daughter in $13,000 Extortion Scam"
+INC-02555,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Facebook Account Reportedly Used AI-Generated Video to Impersonate Indonesian Preacher Ustaz Ujang Bustomi in Money-Giveaway Scam
+INC-14459,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,"Guelph, Ontario, Woman Reportedly Lost $14,000 in Purported Deepfake MrBeast Cryptocurrency Scam"
+INC-14460,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,"AI-Themed Investment Scam Network Reportedly Used Keitaro Cloaking Across 15,500 Domains"
+INC-14465,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Scammers Reportedly Used Real-Time Deepfake Video to Impersonate Veriff CEO Kaarel Kotkas in WhatsApp Fraud Attempt
+INC-07887,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Scammers Reportedly Used AI-Cloned Daughter's Voice to Defraud Bay Area Mother in Fake Kidnapping Call
+INC-14467,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Italian Mediaset Journalist Safiria Leccese's Image Was Reportedly Used in a Purportedly AI-Generated Fake Loan Scam
+INC-14468,2020,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,"Self-Employed Somerset Father Wayne Luxon Reportedly Lost £140,000 After Facebook Deepfake of Martin Lewis Promoted Crypto Scam"
+INC-14469,2026,intrusion,rce,AI product attacked,Llama/Meta AI,AML.T0050,High,Meta AI Support Bot Reportedly Enabled Takeovers of High-Profile Instagram Accounts
+INC-14474,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Kosovo Public Broadcaster RTK and Journalist Gëzim Bimbashi Were Reportedly AI-Impersonated in Alleged Fake Joint-Cure Scam Video
+INC-14476,2026,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0115.001,Medium,Reported AI-Generated Videos Depicted Former Kosovo President Vjosa Osmani and Other Public Figures in Allegedly False Compromising Scenes
+INC-14480,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Purported Deepfake Video Reportedly Impersonated Former Mongolian Deputy Prime Minister Amarsaikhan Sainbuyan in Investment Scam
+INC-14481,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Reddit Scam Ads Reportedly Used Deepfake News Segments and Cloned Media Sites to Promote Allegedly Fake AI Investment Platforms
+INC-13028,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,Purported Deepfake Ads Reportedly Fabricated BBC Question Time Confrontations Between Andrew Bailey and Nigel Farage
+INC-13338,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Critical,Reported Deepfake Video Impersonating Mark Carney Used in Nearly $1M Cryptocurrency Scam Targeting Ontario Senior
+INC-13073,2026,intrusion,phishing,AI used as weapon,Gemini,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,Critical,Google Alleged Outsider Enterprise Used Gemini to Create Phishing Sites for Text-Message Scams
+INC-14483,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Purported Deepfake of Taoiseach Micheál Martin Reportedly Promoted Quantum AI Investment Scam
+INC-00861,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Purported AI-Generated Advertisements Reportedly Falsely Depicted Lee Ji-hye Endorsing Food and Clothing Products
+INC-02201,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Purported AI-Manipulated Video of Nirmala Sitharaman Reportedly Promoted High-Return Investment Scam
+INC-14486,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Purported Deepfakes of Public Figures and Celebrities Reportedly Used to Market Honey-Based Supplements as Alzheimer's Treatments
+INC-14487,2025,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,"Indore Resident Reportedly Lost ₹1.83 Lakh (~$2,000) After AI-Generated Voice Impersonated Relative"
+INC-14339,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,Purported Deepfake Impersonating Dubai Crown Prince Reportedly Used to Defraud Filipino Domestic Worker
+INC-14302,2026,intrusion,rce,AI product attacked,,AML.T0048;AML.T0050;AML.T0053;AML.T0057;AML.T0115.001,Critical,LLM-Driven Ransomware Operator Dubbed JADEPUFFER Reportedly Targeted Production Database
+INC-00001,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,High,Purportedly AI-Generated Videos Reportedly Impersonated Ghanaian President John Mahama to Solicit Money and Personal Data
+INC-05000,2023,intrusion,tool-abuse,AI product attacked,Dark-web LLMs,AML.T0048;AML.T0051;AML.T0053;AML.T0054,High,WormGPT and FraudGPT criminal LLM-as-a-service emerge on dark web
+INC-03049,2025,intrusion,tool-abuse,AI product attacked,ChatGPT/OpenAI,AML.T0048;AML.T0050;AML.T0053,Medium,PromptLock: first AI-powered ransomware (PoC) using local gpt-oss-20b
+INC-02681,2025,intrusion,data-exfiltration,AI product attacked,ChatGPT/OpenAI,AML.T0048.003;AML.T0051;AML.T0056;AML.T0057;AML.T0066;AML.T0070,High,HackedGPT: Tenable discloses 7 ChatGPT vulnerabilities enabling silent exfiltration
+INC-08181,2023,intrusion,prompt-injection,AI product attacked,ChatGPT/OpenAI,AML.T0024;AML.T0048;AML.T0048.003;AML.T0050;AML.T0051;AML.T0051.000;AML.T0051.001;AML.T0053;AML.T0056;AML.T0057;AML.T0059;AML.T0066;AML.T0067,Critical,ChatGPT plugin/cross-plugin data exfiltration via Markdown image injection (Embrace The Red)
+INC-02995,2025,intrusion,prompt-injection,AI product attacked,ChatGPT/OpenAI,AML.T0051;AML.T0053;AML.T0066,High,OpenAI ChatGPT Atlas browser vulnerable to prompt injection via crafted URLs and memory poisoning
+INC-00663,2026,intrusion,agent-hijack,AI product attacked,,AML.T0040;AML.T0048;AML.T0051;AML.T0053;AML.T0057,High,Autonomous AI agent breaches McKinsey internal AI platform in 2 hours
+INC-01157,2026,intrusion,agent-hijack,AI product attacked,,AML.T0010;AML.T0048;AML.T0051;AML.T0053,High,HackerBot Claw campaign: autonomous AI agent probes CI/CD across open-source repos
+INC-00602,2026,intrusion,agent-hijack,AI product attacked,Claude,AML.T0048;AML.T0051;AML.T0053,Critical,Anthropic Claude used in attempted compromise of Mexican water utility
+INC-03050,2025,intrusion,prompt-injection,AI product attacked,Gemini,AML.T0051;AML.T0057;AML.T0066,High,Promptware: Google Calendar invitations as prompt-injection vector for Gemini
+INC-02453,2025,intrusion,supply-chain,AI product attacked,,AML.T0010;AML.T0011;AML.T0048;AML.T0053,High,ClawHub / OpenClaw skill registry infiltrated with 341 malicious agent skills
+INC-03809,2024,intrusion,data-exfiltration,AI product attacked,Copilot,AML.T0010;AML.T0012;AML.T0024;AML.T0057,High,GitHub Copilot reproduces hardcoded secrets from training data (CUHK study)
+INC-04395,2023,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,AI voice cloning used in virtual kidnapping scam targeting U.S. families
+INC-03650,2024,intrusion,memory-poisoning,AI product attacked,ChatGPT/OpenAI,AML.T0051;AML.T0057;AML.T0066,High,ChatGPT memory persistence prompt injection (Embrace The Red)
+INC-03703,2024,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,High,Deepfake CEO fraud surge: FBI flags as fastest-growing US enterprise fraud category
+INC-04618,2023,intrusion,jailbreak,AI product attacked,ChatGPT/OpenAI;Llama/Meta AI,AML.T0051;AML.T0054,High,DeepInception: Hypnotize Large Language Model to Be Jailbreaker
+INC-03886,2024,intrusion,prompt-injection,AI product attacked,Mistral,AML.T0012;AML.T0024;AML.T0051;AML.T0053,Critical,Imprompter: Tricking LLM Agents into Improper Tool Use
+INC-03448,2024,intrusion,backdoor,AI product attacked,,AML.T0018;AML.T0020;AML.T0053;AML.T0066,Critical,AgentPoison: Red-teaming LLM Agents via Memory/RAG Poisoning
+INC-04483,2023,intrusion,backdoor,AI product attacked,,AML.T0010;AML.T0018;AML.T0020;AML.T0053,High,BadGPT: Backdoor Attack against RLHF
+INC-03598,2024,intrusion,backdoor,AI product attacked,ChatGPT/OpenAI,AML.T0018;AML.T0020;AML.T0051;AML.T0053,High,BadChain: Backdoor Chain-of-Thought Prompting
+INC-04481,2023,intrusion,backdoor,AI product attacked,,AML.T0010;AML.T0018;AML.T0053,High,Backdoor Attacks for In-Context Learning with Language Models
+INC-03884,2024,intrusion,backdoor,AI product attacked,,AML.T0010;AML.T0018;AML.T0053,High,ICLAttack: Universal In-Context Learning Backdoor Attacks
+INC-03275,2025,intrusion,prompt-injection,AI product attacked,,AML.T0018;AML.T0050;AML.T0051;AML.T0053;AML.T0066,Critical,The Dark Side of LLMs: Agent-Based Attacks for Complete Computer Takeover
+INC-03278,2025,intrusion,prompt-injection,AI product attacked,,AML.T0012;AML.T0024;AML.T0051;AML.T0053;AML.T0066,High,The Hidden Dangers of Browsing AI Agents
+INC-02879,2025,intrusion,backdoor,AI product attacked,,AML.T0018;AML.T0020;AML.T0053;AML.T0066,High,MemoryGraft: Practical Memory Injection Attack against LLM Agents
+INC-03678,2024,intrusion,backdoor,AI product attacked,,AML.T0018;AML.T0020;AML.T0053;AML.T0066,High,Compromising Embodied Agents with Contextual Backdoor Attacks
+INC-03599,2024,intrusion,backdoor,AI product attacked,,AML.T0010;AML.T0018;AML.T0020;AML.T0053,High,BadEdit: Backdooring LLMs by Model Editing
+INC-03596,2024,intrusion,backdoor,AI product attacked,,AML.T0010;AML.T0018;AML.T0020;AML.T0053,High,BackdoorLLM: Comprehensive Benchmark for Backdoor Attacks on LLMs
+INC-04804,2023,intrusion,backdoor,AI product attacked,,AML.T0010;AML.T0018;AML.T0053,Medium,PoisonPrompt: Backdoor Attack on Prompt-Based LLMs
+INC-03262,2025,intrusion,backdoor,AI product attacked,,AML.T0010;AML.T0012;AML.T0018;AML.T0020;AML.T0053,High,Text-to-SQL Backdoor: SQL Injection via Triggers
+INC-03595,2024,intrusion,backdoor,AI product attacked,,AML.T0018;AML.T0020;AML.T0051;AML.T0053,High,Backdoored Retrievers for Prompt Injection Attacks on RAG
+INC-02775,2025,intrusion,backdoor,AI product attacked,,AML.T0010;AML.T0018;AML.T0020;AML.T0053,High,JailbreakEdit: Injecting Universal Jailbreak Backdoors via Model Editing
+INC-01826,2026,intrusion,model-poisoning,AI product attacked,,AML.T0010;AML.T0020;AML.T0050;AML.T0053;AML.T0066,Critical,Supply-Chain Poisoning Attacks Against LLM Coding Agent Skill Ecosystems
+INC-07190,2019,fraud/impersonation,adversarial-input,AI product attacked,ChatGPT/OpenAI,AML.T0002;AML.T0016;AML.T0029;AML.T0044,Critical,GPT-2 Model Replication
+INC-02254,2025,fraud/impersonation,adversarial-input,AI product attacked,,AML.T0012;AML.T0024;AML.T0055;AML.T0057;AML.T0090,High,AIKatz: Attacking LLM Desktop Applications
+INC-02828,2025,intrusion,adversarial-input,AI product attacked,,AML.T0048;AML.T0051;AML.T0051.001;AML.T0053;AML.T0057,High,Living Off AI: Prompt Injection via Jira Service Management
+INC-03863,2024,intrusion,adversarial-input,AI product attacked,ChatGPT/OpenAI,AML.T0015;AML.T0016.002;AML.T0043;AML.T0051;AML.T0066;AML.T0070,Critical,Hacking ChatGPT’s Memories with Prompt Injection
+INC-02852,2025,intrusion,adversarial-input,AI product attacked,,AML.T0015,High,Malware Prototype with Embedded Prompt Injection
+INC-02798,2025,intrusion,adversarial-input,AI product attacked,,AML.T0015,High,LAMEHUG: Malware Leveraging Dynamic AI-Generated Commands
+INC-02841,2025,intrusion,adversarial-input,AI product attacked,,AML.T0015,Critical,LLMSmith: RCE Vulnerabilities in LLM-Integrated Applications
+INC-02923,2025,intrusion,jailbreak,AI product attacked,,AML.T0053;AML.T0054,High,Multi-model guardrail jailbreak via hex-encoded fictional context
+INC-13899,2026,intrusion,deserialization,unclear,,AML.T0010;AML.T0010.001;AML.T0012;AML.T0050,High,Crawl4AI: LLM credential exfiltration in Docker server via request base_url and env: token resolution
+INC-13972,2026,intrusion,malware,AI used as weapon,Claude,AML.T0010;AML.T0012,Critical,Malware in free-anthropic-claude
+INC-10091,2025,intrusion,malware,AI used as weapon,Claude,AML.T0010;AML.T0012,Critical,Malware in @relyt/claude-context-mcp
+INC-06329,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,AI-Powered Workplace Harassment Detection Raises Privacy and Trust Concerns
+INC-06272,2020,intrusion,deepfake,AI used as weapon,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,Critical,AI-Driven Bots and Ransomware Escalate Cyberattack Threats in Indonesia
+INC-06497,2020,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,Deepfake AI Technology Raises Concerns Over Fraud and Misinformation Risks
+INC-06322,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,AI-Powered Surveillance in China During COVID-19 Leads to Widespread Privacy Violations
+INC-06339,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0057;AML.T0115.001,High,Alipay Facial Recognition System Exploited by Fraudsters Using AI-Generated 3D Avatars
+INC-06532,2020,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0115.001,Medium,EU Lawmaker Warns of AI Hazards: Hacking Robots and Deepfake Software Pose New Challenges
+INC-06280,2020,intrusion,phishing,AI used as weapon,,AML.T0048.003,Medium,AI-Driven Voice Phishing Enables Financial Fraud in Cyberattacks
+INC-07060,2020,intrusion,deepfake,AI used as weapon,,AML.T0012;AML.T0048.003;AML.T0057;AML.T0115.001,High,Ultrasonic 'Surfing Attacks' Exploit AI Voice Assistants for Unauthorized Access
+INC-06910,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,Senators Probe Google and Ascension Over Project Nightingale's AI-Driven Health Data Practices
+INC-06314,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,Critical,AI-Powered Police Body Cameras and Robot Vacuums Raise Privacy Concerns
+INC-06498,2020,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,Deepfake AI Used in Financial Fraud and Phishing Scams
+INC-06499,2020,intrusion,deepfake,AI used as weapon,,AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,Critical,Deepfake AI Used in Ransomware and Fraud Schemes Raises Global Alarm
+INC-07020,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,Turkey Launches Investigation into TikTok Over AI-Driven Data Privacy Concerns
+INC-06992,2020,intrusion,privacy-violation,unclear,,,Critical,TikTok Faces Global Scrutiny Over AI-Driven Data Privacy and Espionage Concerns
+INC-14650,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057;AML.T0115.001,Critical,US Scrutiny of TikTok Raises AI-Driven Election Interference and Data Security Concerns
+INC-06744,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,Critical,Japanese Lawmakers Propose Restrictions on Chinese AI-Driven Apps Over Security Concerns
+INC-06295,2020,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Voice Used in CEO Impersonation Scam
+INC-06297,2020,intrusion,misinformation,AI used as weapon,,AML.T0115.001,Medium,AI-Generated Fake Blog Posts Fool Readers on Hacker News
+INC-06908,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,Critical,Security Risks of Chinese AI-Enabled Drones in Australia Raise National Concerns
+INC-06225,2020,fraud/impersonation,deepfake,AI used as weapon,,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,High,AI Face-Swapping and Facial Recognition Lead to Privacy Violations and Fraud in China
+INC-06422,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,Canadian Mall Operator Illegally Collected Shoppers' Biometric Data Using AI Facial Recognition
+INC-06316,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,AI-Powered Remote Proctoring Causes Privacy Violations and Discrimination in Education
+INC-06627,2020,fraud/impersonation,privacy-violation,unclear,,AML.T0048.003,Medium,French Senate Approves AI-Based Social Media Surveillance to Detect Social Fraud
+INC-06496,2020,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,Deepfake AI Technology Causes Harm Through Fraud and Misinformation
+INC-06736,2020,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,Italian Antitrust Investigates AI-Based Insurance Fraud Detection Project for Competition Risks
+INC-06501,2020,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Deepfake Audio Used in Financial Fraud Raises Concerns Over AI Risks
+INC-06878,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,Researchers Hack Robotic Vacuums to Eavesdrop Using AI and Lidar
+INC-06895,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,Russian Interior Ministry to Create Centralized Biometric Database Using AI
+INC-14661,2020,intrusion,privacy-violation,unclear,,AML.T0048.003;AML.T0115.001,High,AI-Generated Fake Human Images Used for Online Deception and Espionage
+INC-06562,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,Facebook Develops AI-Powered Neural Sensor to Read Thoughts
+INC-06775,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,Meituan Accused of Using AI-Driven 'Big Data Discrimination' to Overcharge Loyal Members
+INC-14662,2020,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,High,AI-Enabled Biometric Data Misuse Leads to Fraud and Privacy Violations in China
+INC-05438,2021,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,AI-Powered Smart Cushions Used for Employee Surveillance in Hangzhou Company
+INC-14665,2021,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI Face-Swapping Scam Leads to Financial Loss in Nanjing
+INC-05439,2021,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,AI-Powered Smart Doorbells Ruled to Infringe Neighbor Privacy in China
+INC-05589,2021,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Critical,European Politicians Deceived by Deepfake Impersonating Navalny's Chief of Staff
+INC-05405,2021,intrusion,other,unclear,,AML.T0115.001,Medium,AI-Driven Sex Robots and Virtual Companions Raise Exploitation and Social Risks
+INC-05430,2021,fraud/impersonation,other,unclear,,AML.T0048.003,High,AI-Generated Fake Female Profiles Used in Hotel Social App Scam Busted by Shanghai Police
+INC-06189,2021,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057,High,Worldcoin's AI-Powered Iris Scanning for Cryptocurrency Raises Privacy Concerns
+INC-14681,2025,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Generated Fake Product Images Used for Fraudulent Refunds in China
+INC-00520,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0057,High,AI-Generated VoidLink Malware Marks New Era in Cyber Threats
+INC-01541,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0048.003;AML.T0053;AML.T0057,High,North Korean Konni Hackers Use AI-Generated Malware to Target Blockchain Developers in Asia-Pacific
+INC-00477,2026,fraud/impersonation,other,unclear,,AML.T0048.003,High,AI-Generated Images Used in Fraudulent 'Case Fixing' Scheme in Vietnam
+INC-14686,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Generated Romance Scams Target Elderly Women in China
+INC-00385,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Scam Impersonates Belgian Royalty
+INC-01652,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,Critical,Poland Bans Chinese and Tesla Vehicles from Military Bases Over AI-Driven Security Risks
+INC-00408,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Videos Used in Scams and Misinformation in Taiwan
+INC-00289,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Driven Deepfake Scams Cause Harm in Louisiana and Cambodia
+INC-01255,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,Critical,Israeli Firms Deploy AI-Powered Vehicle Surveillance Tools
+INC-00423,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfakes Used in Fraudulent Celebrity Endorsements in Serbia
+INC-00283,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0050;AML.T0053;AML.T0057,Critical,"AI-Driven Cyberattacks Quadruple in Speed, Targeting Digital Identities"
+INC-00491,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,Critical,"AI-Generated Passwords Found Predictable and Insecure, Experts Warn"
+INC-00379,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Generated Deepfake Investment Scams Defraud Victims in Turkey
+INC-00986,2026,fraud/impersonation,deepfake,AI used as weapon,Gemini,AML.T0048.003;AML.T0115.001,Medium,Fake Gemini AI Chatbot Used in Google Coin Crypto Scam
+INC-00875,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Deepfake Scam Uses Romanian Central Bank Governor's Image to Promote Fraudulent Investments
+INC-01432,2026,intrusion,data-exfiltration,AI product attacked,Copilot,AML.T0012;AML.T0048.003;AML.T0050;AML.T0053;AML.T0057,High,Microsoft Copilot AI Bug Exposes Confidential Emails by Bypassing Security Controls
+INC-00587,2026,intrusion,data-exfiltration,AI product attacked,Gemini,AML.T0048.003;AML.T0050;AML.T0053;AML.T0057,High,Android Malware 'PromptSpy' Uses Google's Gemini AI for Persistence and Remote Access
+INC-00278,2026,intrusion,rce,AI product attacked,,AML.T0048;AML.T0050,Critical,AI-Driven Cyberattacks Breach 600+ Firewalls Globally in Five Weeks
+INC-00238,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI Tools Enable Sophisticated Fraud and Scams in Latvia
+INC-14698,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Scam Targets Greek Central Bank Governor
+INC-00407,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Videos Used in Financial Scam in Portugal
+INC-00195,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Critical,"AI Privacy Breaches, Cybersecurity Threats, and Economic Disruption Highlighted"
+INC-00321,2026,fraud/impersonation,other,unclear,,AML.T0048.003,High,AI-Driven Scams Lead to Surge in UK Fashion Consumer Complaints
+INC-01171,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,Hyderabad Police Warn of AI-Driven Biometric Identity Theft Scam
+INC-02023,2026,intrusion,rce,AI product attacked,Claude,AML.T0010;AML.T0048;AML.T0050,Critical,US Military Uses Anthropic's Claude AI in Venezuela Attack; Chinese Firms Illegally Exploit Claude Model
+INC-14702,2026,intrusion,rce,AI product attacked,,AML.T0048.003;AML.T0050,Critical,KB Kookmin Bank and LG Uplus Unveil AI-Based Real-Time Voice Phishing Prevention System
+INC-00409,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Generated Deepfake Videos Used to Impersonate Colombian Priest in Health Product Scam
+INC-00386,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Generated Deepfake Scam Impersonates Johor Official on TikTok
+INC-00879,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,Delhi High Court Orders Removal of AI-Generated Deepfakes Exploiting Singer Jubin Nautiyal
+INC-00334,2026,intrusion,prompt-injection,AI product attacked,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0051;AML.T0053;AML.T0057;AML.T0115.001,Critical,"AI-Enabled Cyberattacks Surge, Slashing Breakout Times to Under 30 Minutes"
+INC-00517,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Voice Scam Impersonates Malaysian King for Fraudulent Aid Scheme
+INC-00781,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,"Chinese Actor Wang Jinsong's Likeness Deepfaked by AI, Raising Legal and Fraud Concerns"
+INC-00874,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Deepfake Scam Targets Bulgarian News Anchor
+INC-00977,2026,intrusion,data-exfiltration,AI product attacked,Gemini,AML.T0012;AML.T0057,High,Exposed Google API Keys Enable Unauthorized Access to Gemini AI and Data
+INC-01413,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Meta Sues Over Deepfake-Driven Health Fraud in Brazil
+INC-00930,2026,intrusion,data-exfiltration,AI product attacked,ChatGPT/OpenAI,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057,Medium,Elon Musk Accuses OpenAI's ChatGPT of Causing User Harm Amid Legal Disputes
+INC-00720,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050;AML.T0115.001,High,Bybit's AI System Blocks $300 Million in Crypto Fraud Amid Surge in AI-Driven Scams
+INC-00521,2026,intrusion,privacy-violation,unclear,,,High,AI-Generated WeChat IDs Lead to Privacy Breaches and Unsolicited Contacts
+INC-00862,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057,High,Critical OpenClaw AI Vulnerability Allows Malicious Websites to Hijack Local AI Agents
+INC-01662,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057,Critical,Potential AI-Enabled Satellite Warfare Risks Between US and China
+INC-00312,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Driven Online Financial Scams Surge in Bulgaria
+INC-00476,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050,High,AI-Generated Images Enable Sophisticated Refund Fraud on Vinted and E-Commerce Platforms
+INC-00154,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,"AI Deepfake Voice Scams Target 1 in 4 Americans, Causing Financial and Emotional Harm"
+INC-00314,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0057,High,"AI-Driven Phishing Attacks Bypass Microsoft Security, Compromise Thousands"
+INC-01108,2026,intrusion,data-exfiltration,AI product attacked,Gemini,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057,High,Google Chrome Gemini AI Vulnerability Exposes Users to Surveillance and Data Theft
+INC-00357,2026,intrusion,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050,Critical,AI-Enabled Tycoon 2FA Phishing Platform Disrupted After Global Harm
+INC-01737,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057,High,Risks of Autonomous AI Agent Interactions and Governance Challenges
+INC-14716,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0050;AML.T0057,Critical,Autonomous AI Agents Escalate Cybersecurity Threats and Incidents
+INC-00470,2026,intrusion,rce,AI product attacked,,AML.T0050;AML.T0115.001,High,AI-Generated Fake War Videos Spread via Hacked Accounts on X
+INC-00355,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0050;AML.T0053;AML.T0057,High,AI-Enabled Spyware 'Graphite' Used to Illegally Monitor Journalists and Activists in Italy
+INC-00537,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,AI-Powered Chatbots Used in Sophisticated Investment Scams on Messaging Apps in Italy
+INC-00288,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Driven Deepfake and Biometric Fraud Surges Across Africa
+INC-01176,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0050;AML.T0057,Critical,IBM Report: Surge in AI-Driven Cyberattacks Exploiting Security Vulnerabilities
+INC-02045,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Virgin Media O2 Uses AI to Block Over 1 Billion Scam Calls
+INC-00387,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Scam Impersonates Spanish TV Host Pablo Motos
+INC-00530,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,AI-Powered Age Verification Sparks Privacy and Surveillance Fears in the US
+INC-00573,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,Critical,Alibaba AI Agent ROME Engages in Unauthorized Crypto Mining and Network Tunneling
+INC-00700,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Bombay Stock Exchange Warns of Fraudulent Deepfake Video Scam
+INC-00908,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050;AML.T0115.001,High,Douyin E-commerce Cracks Down on AI-Generated Celebrity Impersonation Scams
+INC-00516,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Voice Scam Impersonates Bharti Singh in Slimming Product Fraud
+INC-00481,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,High,"AI-Generated Malware Obscures Cyberattack Origins, Hindering Detection"
+INC-01687,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,Punjab Cyber Fraudsters Use AI Voice-Changing and Deepfake Videos for Extortion
+INC-00303,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Driven Identity Attacks Surpass Stolen Credentials as Top Enterprise Threat
+INC-01917,2026,fraud/impersonation,rce,AI product attacked,,AML.T0020;AML.T0048.003;AML.T0050;AML.T0066,High,Trust Wallet Launches AI-Powered Real-Time Scam Address Protection
+INC-00051,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0050;AML.T0057,Critical,"Agentic AI Drives Surge in Global Cybercrime, Identity Theft, and Ransomware"
+INC-00382,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake of Jean Reno Used in Major Investment Scam in Lyon
+INC-00450,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,AI-Generated Fake Injury Used in Attempted Nail Salon Fraud in South Korea
+INC-00155,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI Deepfakes Drive $333 Million Crypto ATM Fraud Surge in the US
+INC-00281,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0057,Critical,"AI-Driven Cyberattacks Escalate in Indonesia, Causing Increased Harm"
+INC-00505,2026,intrusion,rce,AI product attacked,,AML.T0048;AML.T0050,Critical,AI-Generated Slopoly Malware Used in Hive0163 Ransomware Attacks
+INC-00156,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI Deepfakes Used in Financial Fraud Targeting Investors in China
+INC-01970,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050,Critical,"UN Warns AI-Driven Online Fraud Surges Globally, Overwhelming States"
+INC-01593,2026,intrusion,prompt-injection,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0050;AML.T0051;AML.T0053;AML.T0057,High,OpenClaw AI Agents Cause Data Breaches and Mass Layoffs in China
+INC-00398,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Generated Deepfake Video of Shakira Used in Cryptocurrency Scam in Colombia
+INC-00406,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Generated Deepfake Videos Used for Large-Scale Identity Fraud in China
+INC-00490,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050,High,AI-Generated Parcel Scam Causes Financial Harm in France
+INC-00539,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0050;AML.T0057,Critical,AI-Powered Cyberwarfare Attacks Impact Australia and UK
+INC-00542,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,AI-Powered Editing Tools Drive Surge in Insurance Fraud in the US
+INC-00916,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,Dutch Fraudster Uses Deepfake AI to Open Dozens of Bank Accounts
+INC-01349,2026,intrusion,other,unclear,,,High,LLM-Driven Attack Compromises AWS Administrator Privileges in 8 Minutes
+INC-00480,2026,fraud/impersonation,other,unclear,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Legal Documents Cause Harm in Fraudulent Online Law Firms in China
+INC-01784,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,"Sony Removes 135,000 AI-Generated Deepfake Songs Impersonating Artists"
+INC-00474,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Generated Fraudulent Messages Target Citizens Ahead of Holiday
+INC-00346,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,"AI-Enabled Financial Scams Cause €20 Million Losses in Croatia, Targeting Youth"
+INC-01395,2026,intrusion,data-exfiltration,AI product attacked,Llama/Meta AI,AML.T0012;AML.T0050;AML.T0057,High,Meta AI Agent Causes Data Exposure and Deletion; Widespread Job Losses Loom Due to AI Adoption
+INC-00052,2026,intrusion,malware,AI used as weapon,,AML.T0048.003,Medium,Agentic AI Empowers Solo Cybercriminals to Rapidly Develop Advanced Malware
+INC-00181,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI Misuse and Fraud Prevention in China's Financial and Social Platforms
+INC-14736,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Driven Romance and Deepfake Scams Cause Financial and Emotional Harm in Taiwan
+INC-00275,2026,intrusion,other,unclear,,,Medium,AI-Driven Cyberattack Threatens Global Satellite Infrastructure
+INC-01591,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,OpenClaw AI Agent Raises Cybersecurity Concerns in Taiwan
+INC-01904,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,"TikTok and Instagram Ban Accounts for Unlabeled, Exploitative AI-Generated Black Female Avatars"
+INC-00305,2026,intrusion,rce,AI product attacked,,AML.T0048.003;AML.T0050,High,"AI-Driven Internet Fraud Surges in Germany, Exploiting Language Barriers"
+INC-00614,2026,intrusion,data-exfiltration,AI product attacked,Claude,AML.T0010;AML.T0012;AML.T0050;AML.T0057,High,Anthropic's Claude AI Introduces Remote Computer Control and Risk-Aware Automation Features
+INC-00148,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,Critical,"AI Deepfake Scams Target Chinese Celebrities, Prompt Calls for Regulation"
+INC-00143,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI Deepfake and Facial Recognition Misuse Raise Privacy and Fraud Concerns in China
+INC-00458,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Fake Personas Drive Viral Crypto Scams on X
+INC-01778,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,Slovak Central Bank Warns of AI-Generated Fraudulent Crypto Websites
+INC-01141,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,Greek Singer Alkistis Protopsalti Targeted by AI-Generated Deepfake Scam
+INC-00395,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Video of António Horta Osório Used in Investment Scam
+INC-01594,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,Critical,OpenClaw AI Agents Cause Data Loss and Operational Disruption Due to Malfunctions and Security Flaws
+INC-00152,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Critical,"AI Deepfake Videos Impersonate Doctor, Spread Harmful Medical Misinformation in South Korea"
+INC-00519,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,AI-Generated Voices Used in Phone Scams Cause Financial Losses in Lithuania
+INC-14743,2026,intrusion,prompt-injection,AI product attacked,ChatGPT/OpenAI,AML.T0012;AML.T0048.003;AML.T0050;AML.T0051;AML.T0053;AML.T0057,High,Major Security Vulnerabilities in AI Systems ChatGPT and OpenClaw Lead to Data Breach Risks and Real-World Harm
+INC-00297,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Driven Elon Musk Impersonation Scam Defrauds Elderly Singaporean Woman
+INC-01549,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,OkCupid Settles FTC Case Over Unauthorized Sharing of User Photos with AI Firm
+INC-00074,2026,intrusion,data-exfiltration,AI product attacked,Claude,AML.T0010;AML.T0012;AML.T0048;AML.T0050;AML.T0057,High,AI Agents Found Deceiving and Manipulating Users; Anthropic's Claude Source Code Leaked
+INC-00323,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,"AI-Driven Scams Surge, Increasing Financial Harm and Public Concern"
+INC-00327,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Driven Tax Scams Surge in the US During Filing Season
+INC-01112,2026,intrusion,rce,AI product attacked,,AML.T0048;AML.T0050,Critical,Google Deploys AI-Powered Ransomware Detection for Drive Users Globally
+INC-00414,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfakes Cause Fraud and Undermine Democracy in Germany
+INC-01110,2026,intrusion,other,unclear,,,High,Google Cloud Vertex AI Agents Exploited Due to Excessive Default Permissions
+INC-00446,2026,fraud/impersonation,other,unclear,,AML.T0048.003;AML.T0115.001,High,"AI-Generated Fake IDs Enable Exam Fraud in Turkey, 14 Arrested"
+INC-00814,2026,intrusion,prompt-injection,AI product attacked,Claude,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0051;AML.T0053;AML.T0057;AML.T0115.001,High,Claude Code Source Leak Exploited to Spread Credential-Stealing Malware
+INC-00399,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Video Used for Extortion in Argentina
+INC-14755,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Music Impersonations and Copyright Fraud Target Folk Artist Murphy Campbell
+INC-00550,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,AI-Powered Necklace Launch Suspended in EU Over Privacy Concerns
+INC-00280,2026,intrusion,other,unclear,,,Critical,AI-Driven Cyberattacks Cause Major Losses in Crypto Industry
+INC-00780,2026,intrusion,deepfake,AI used as weapon,,AML.T0010;AML.T0048;AML.T0048.003;AML.T0050;AML.T0115.001,Critical,China's Use of AI for Espionage and Election Interference in Taiwan
+INC-00418,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfakes Fuel Social Media Investment Scams in the US
+INC-00151,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,"AI Deepfake Tools Bypass KYC, Fueling Financial Fraud in Crypto and Banking"
+INC-00518,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Voice Used in Scam Targeting Drica Moraes' Contacts
+INC-01115,2026,intrusion,data-exfiltration,AI product attacked,Gemini,AML.T0010;AML.T0012;AML.T0050;AML.T0057,High,Google Gemini AI API Key Exposure Leads to Data and Financial Breaches in Android Apps
+INC-00322,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Critical,"AI-Driven Scams Surge in Australia, Prompting Record Takedowns by Regulators"
+INC-01118,2026,intrusion,data-exfiltration,AI product attacked,Gemini,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,Critical,"Google Gemini Implicated in User Suicide and Mass Misinformation, Prompts Safeguards"
+INC-00612,2026,intrusion,data-exfiltration,AI product attacked,Claude,AML.T0010;AML.T0012;AML.T0050;AML.T0057,Critical,Anthropic's AI Model Claude Mythos Raises Security Concerns and Reveals Emotional Mechanisms
+INC-00068,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,AI Agent Deployment Drives Surge in API Security Incidents
+INC-01077,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0050;AML.T0057,Critical,German Cybersecurity Agency Warns of AI-Driven Vulnerability Discovery Risks
+INC-02121,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Zimbabwe Faces Surge in AI-Driven Cybercrime and Fraud
+INC-01251,2026,intrusion,rce,AI product attacked,,AML.T0050,High,Irish Cybersecurity Leaders Warn of AI-Driven Cyberattack Risks
+INC-00443,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,"AI-Generated Fake Court Documents Used in Fraud Attempt in Batman, Turkey"
+INC-00613,2026,intrusion,other,unclear,Claude,,High,"Anthropic's Claude AI Agents Surpass Humans in Alignment Research, Exposing Reward Hacking Risks"
+INC-00707,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Brazilian Police Dismantle AI-Driven Deepfake Fraud Ring
+INC-01129,2026,fraud/impersonation,rce,AI product attacked,Gemini,AML.T0048.003;AML.T0050,High,Google's Gemini AI Blocks Fraudulent Ads and URLs in Taiwan
+INC-01442,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,Microsoft's AI-Powered Recall Feature Still Exposes Sensitive User Data Despite Security Overhaul
+INC-01945,2026,intrusion,model-poisoning,AI product attacked,,AML.T0020;AML.T0048.003;AML.T0066,Medium,UK Government Warns of Escalating AI-Driven Cyberattacks
+INC-00299,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Driven Financial Fraud and Deepfake Crimes Surge in Brazil
+INC-01571,2026,intrusion,deepfake,AI used as weapon,,AML.T0010;AML.T0012;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,Critical,Open-Source AI Agents Cause Security Breaches and Financial Harm in China
+INC-00149,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI Deepfake Scams Target Investors on Meta Platforms
+INC-00552,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,AI-Powered Robot Police Deployed in Chinese Cities Raise Privacy Concerns
+INC-00256,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003,Medium,AI Voice Cloning Used in Silent Call Fraud Scheme in Indonesia
+INC-00723,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,Cal.com Closes Source Code Due to AI-Driven Security Threats
+INC-01097,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,Critical,Global Surge in AI-Driven Fraud and Deepfake Scams
+INC-00383,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake of Wendie Renard Used in Investment Scam
+INC-00452,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0057,High,AI-Generated Fake Job Offers Lead to Widespread Scams and Data Theft
+INC-01750,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Russian AI-Driven Cyberattacks Escalate Against Europe
+INC-00883,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Delhi High Court Restrains AI-Generated Deepfakes Exploiting Allu Arjun's Persona
+INC-00478,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Generated Influencer 'Emily Hart' Used to Scam MAGA Supporters
+INC-00616,2026,intrusion,data-exfiltration,AI product attacked,Claude,AML.T0012;AML.T0057,High,Anthropic's Claude Desktop Secretly Installs Browser Backdoor on macOS
+INC-01837,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057;AML.T0115.001,Critical,Taiwan Warns Against Use of Gaode Map App Over AI-Driven Data Security Risks
+INC-00424,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfakes Used to Impersonate Doctor and Promote Illegal Medicines in Brazil
+INC-00440,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,AI-Generated Fake Bank Cheque Sparks Fraud Concerns in India
+INC-00298,2026,intrusion,other,unclear,,,High,AI-Driven Exploits Cause Major Losses in DeFi Platforms
+INC-01233,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,Critical,Indian Government Urges Banks to Prepare for AI-Driven Cyber Threats
+INC-14776,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI System at Shinhan Investment & Securities Blocks Financial Fraud
+INC-00558,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Critical,AI-Powered Synthetic Identity Fraud Hits Financial Sector
+INC-14777,2026,intrusion,misinformation,AI used as weapon,,AML.T0048.003;AML.T0115.001,Critical,AI-Generated Videos Exploit Elderly and Cause Public Panic in China
+INC-00717,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,BSE Warns of Repeated Deepfake Scams Targeting Investors
+INC-00698,2026,intrusion,deepfake,AI used as weapon,,AML.T0012;AML.T0048.003;AML.T0057;AML.T0115.001,High,BlueNoroff Uses AI-Generated Deepfakes in Cryptocurrency Phishing Attacks
+INC-00410,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Videos Used to Scam French Investors
+INC-00073,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,AI Agents Exploited in Security Breaches Due to Inadequate Identity Management
+INC-14783,2026,intrusion,data-exfiltration,AI product attacked,Claude,AML.T0012;AML.T0057,High,Japan and US Respond to AI Cyberattack Risks from Claude Mythos
+INC-00319,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Driven Romance Scams Impact 27% of Italians
+INC-00272,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0057,High,"AI-Driven Bot Attacks Surge 12.5x, Dominate Internet Traffic in 2025"
+INC-00551,2026,intrusion,phishing,AI used as weapon,,AML.T0048.003,Medium,AI-Powered Phishing Kits Like Bluekit Drive Surge in Sophisticated Attacks
+INC-14785,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0012;AML.T0048.003;AML.T0057;AML.T0115.001,High,AI Misuse Leads to Biometric Data Leaks and Identity Fraud in China
+INC-00300,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050,High,AI-Driven Fraud Surges Amid Governance Gaps in Global Financial Sector
+INC-01362,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0010;AML.T0012;AML.T0020;AML.T0053;AML.T0057;AML.T0066;AML.T0115.001,High,Malicious AI Agent Supply Chain Attack Exploits MCP Server Lookalikes
+INC-00144,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI Deepfake Celebrity Scams Target TikTok Users
+INC-00260,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0010;AML.T0053;AML.T0057,High,AI-Assisted Commit Enables North Korean Malware Attack on Crypto Trading Agent
+INC-00286,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0057,Critical,AI-Driven Cybercrime Causes 389% Surge in Ransomware Victims
+INC-00315,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,"AI-Driven Phishing Attacks Surge, Expanding Beyond Email"
+INC-00405,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Critical,AI-Generated Deepfake Videos Used for Celebrity Impersonation and Scams in Vietnam
+INC-01992,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,US Considers Faster Patch Deadlines Due to AI-Driven Cyber Threats
+INC-00157,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI Deepfakes Used in Fraudulent Medical Product Scams in Germany
+INC-00766,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,"China Implements National AI-Driven Digital Identity System, Raising Surveillance Concerns"
+INC-01946,2026,intrusion,rce,AI product attacked,,AML.T0050,Critical,UK NCSC Warns of AI-Driven Surge in Software Vulnerability Exploitation
+INC-00512,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Videos Used in Religious Charity Scam in Taiwan
+INC-00421,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Generated Deepfakes Used in Celebrity Scam Ads in France
+INC-00257,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI Voice Cloning Used in Silent Call Phone Scams in France
+INC-14789,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Saint Paisios Scam Defrauds Greek Faithful
+INC-00147,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,"AI Deepfake Scam Targets Taiwanese Farmer, Harms Consumers and Agriculture"
+INC-01125,2026,intrusion,privacy-violation,unclear,,,High,Google Warns EU Data-Sharing Plan Risks AI-Driven Privacy Breaches
+INC-00274,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,"AI-Driven CTV Ad Fraud Surges 140% Globally, Causing Financial Harm to Advertisers"
+INC-00499,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Scam Texts Target Oregon Drivers
+INC-00284,2026,intrusion,deepfake,AI used as weapon,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,Critical,AI-Driven Cyberattacks Render Passwords Insufficient for Security
+INC-00730,2026,intrusion,data-exfiltration,AI product attacked,ChatGPT/OpenAI,AML.T0012;AML.T0050;AML.T0057;AML.T0115.001,High,Canadian Privacy Authorities Find OpenAI's ChatGPT Violated Privacy Laws
+INC-00538,2026,intrusion,rce,AI product attacked,,AML.T0050,High,AI-Powered Cyberattacks Threaten Global Financial Stability
+INC-14796,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0057,Critical,AI-Powered DeepLoad Malware Targets Nigerian Institutions
+INC-00444,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,AI-Generated Fake Damage Photos Used in Vinted Refund Scam
+INC-00263,2026,fraud/impersonation,other,unclear,,AML.T0048.003,High,AI-Assisted IPL Ticket Counterfeiting Scam Busted in Lucknow
+INC-01968,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,UN AI Advisor Warns of Risks: Human Impersonation and Neural Data Commercialization
+INC-00277,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0050;AML.T0057;AML.T0115.001,Critical,AI-Driven Cyberattacks and Military Targeting Lead to Civilian Harm
+INC-00479,2026,fraud/impersonation,other,unclear,,AML.T0048.003,High,AI-Generated Investment Scam Defrauds Retiree in Antalya
+INC-01107,2026,intrusion,other,unclear,,,High,Google Blocks AI-Driven Cyberattack Exploiting Zero-Day Vulnerability
+INC-00878,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Delhi High Court Orders Removal of AI-Generated Deepfakes Exploiting Aman Gupta
+INC-01759,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,Security Incidents and Warnings Over OpenClaw AI Agent Vulnerabilities
+INC-00232,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Critical,AI Systems Used in Both Combating and Facilitating Payment Scams
+INC-01057,2026,intrusion,supply-chain,AI product attacked,,AML.T0010,Medium,G7 Shares Concerns Over AI-Enabled Cyberattack Risks to Financial Systems
+INC-00693,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,Critical,Binance's AI Systems Block Billions in Crypto Scams and Fraud
+INC-00367,2026,intrusion,rce,AI product attacked,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Generated Child Sexual Abuse Material Drives Surge in Exploitation Cases in North America
+INC-00145,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI Deepfake Scam Causes $25 Million Loss in Vietnam
+INC-00279,2026,intrusion,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050,Critical,AI-Driven Cyberattacks Cause Major Harm in Germany
+INC-00282,2026,intrusion,prompt-injection,AI product attacked,,AML.T0010;AML.T0012;AML.T0048;AML.T0050;AML.T0051;AML.T0053;AML.T0057,Critical,"AI-Driven Cyberattacks Exploit Zero-Day Vulnerabilities, Escalating Security Risks"
+INC-00146,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI Deepfake Scam Targets Hospital Director in Taiwan
+INC-14804,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Critical,Google Detects First AI-Generated Zero-Day Attack Code Used by State-Backed Hackers
+INC-00285,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0050;AML.T0057,Critical,AI-Driven Cyberattacks Surge in Argentina
+INC-07717,2026,intrusion,data-exfiltration,AI product attacked,ChatGPT/OpenAI,AML.T0012;AML.T0048.003;AML.T0057,Critical,"ChatGPT Launches Financial Management Feature, Raising Privacy Concerns"
+INC-01775,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Singapore Businessman Scammed via Deepfake Impersonation of Government Officials
+INC-01260,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Critical,Italian Woman Uses AI-Generated Images to Commit Funeral Fraud
+INC-00276,2026,intrusion,other,unclear,,,Medium,AI-Driven Cyberattacks and Military Integration Raise Security Concerns in Europe
+INC-01576,2026,intrusion,data-exfiltration,AI product attacked,ChatGPT/OpenAI,AML.T0012;AML.T0050;AML.T0057,High,OpenAI Faces Lawsuit Over ChatGPT Data Sharing With Meta and Google
+INC-07752,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050,High,AI-Generated Fake Images Used in E-Commerce Refund Fraud in China
+INC-07765,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,AI Tools Uncover Critical Linux and OpenClaw Vulnerabilities; AI-Generated Reports Disrupt Bug Bounty Programs
+INC-07770,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Ads Fuel Massive International Dietary Supplement Scam
+INC-14814,2026,intrusion,other,unclear,,,Medium,Japan Considers Financial System Shutdowns to Counter AI-Driven Cyberattack Risks
+INC-14815,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Generated Fake Police Faces Used in International Fraud Schemes
+INC-07778,2026,fraud/impersonation,other,unclear,ChatGPT/OpenAI,AML.T0048.003,High,ChatGPT Used in Exam Fraud Leads to Arrests in Goiás
+INC-07783,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,Lyft Driver Uses AI-Generated Images for Fraudulent Damage Claims in Florida
+INC-07787,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Powered Dolunay Project Rapidly Tackles Cyber Fraud in Turkey
+INC-07791,2026,intrusion,csam-generation,unclear,,,Medium,AI-Driven Surge in Online Sexual Exploitation of Minors in Belgium
+INC-07802,2026,intrusion,rce,AI product attacked,,AML.T0048;AML.T0050,Critical,AI-Driven Data Management System Prevents Data Loss in Cyberattack
+INC-07805,2026,intrusion,deepfake,AI used as weapon,,AML.T0010;AML.T0048.003;AML.T0115.001,Medium,AI-Driven Cyber Attacks Impact Businesses in US and Singapore
+INC-07806,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Generated Lawyer Voice Cloning Used in Major Fraud Scheme in São Paulo
+INC-07810,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Driven Online Fraud Surge in Bosnia and Herzegovina
+INC-07817,2026,intrusion,data-exfiltration,AI product attacked,Claude,AML.T0012;AML.T0050;AML.T0053;AML.T0057,High,Claude Code AI Sandbox Vulnerability Exposes Sensitive Developer Data
+INC-07818,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,AI-Powered Botnets Drive Surge in DDoS Attacks on Financial Services
+INC-07824,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Generated Police Identity Used in Dating App Fraud in Ahmedabad
+INC-07825,2026,fraud/impersonation,other,unclear,,AML.T0048.003,High,"AI-Enabled Social Engineering Scams Cause Nearly $1 Billion in Consumer Losses, Visa Reports"
+INC-07827,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI Deepfakes Fuel Massive IPL Betting Scam in India
+INC-07837,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Critical,"AI Deepfakes Undermine Identity Verification, Fueling Fraud in the U.S."
+INC-07843,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,Critical,AI Moderation Failures on Major Platforms Enable Widespread Financial Scams in Europe
+INC-07847,2026,fraud/impersonation,other,unclear,,AML.T0048.003,High,Malaysian Police Bust AI-Powered Scam Syndicate Targeting Spain
+INC-07851,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0010;AML.T0012;AML.T0057,High,AI-Generated Code Accelerates Cybersecurity Risks as Firms Ship Vulnerable Software
+INC-07858,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Driven Fraud Causes Significant Financial Losses in Ukraine
+INC-07874,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0057,Critical,AI-Driven Cyberattacks Surge in Argentina in 2025
+INC-07877,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Generated Deepfake Investment Scam Leads to Arrests in Turkey
+INC-07880,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Driven Fraud Risks Highlighted in GCC Payment Systems
+INC-07898,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0057,Critical,FBI Warns of AI-Powered Kali365 Phishing Attacks Targeting Microsoft 365 Accounts
+INC-07905,2026,intrusion,other,unclear,,,High,AI-Powered Cyberattack Compromises Nine Government Agencies
+INC-07924,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfakes and Fraud Target Colombian Elections
+INC-07933,2026,intrusion,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050,Critical,AI-Driven Cyberattacks and Defensive Evolution in China
+INC-07945,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,AI-Generated Images Fuel Surge in Insurance Fraud in the US
+INC-07954,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,AI-Generated Fake QRIS Used in Surabaya Store Fraud
+INC-07962,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,AI-Generated Scams Cause Surge in Investment Fraud in Ireland
+INC-07963,2026,intrusion,other,unclear,,,Medium,South Korea Launches AI-Enabled Vulnerability Disclosure Pilot to Counter Hacking Threats
+INC-07964,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,Ukrainian Fraud Ring Used Deepfake AI in International Scam
+INC-07979,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI Voice Cloning Scams Cause Major Financial Losses in the US
+INC-07980,2026,intrusion,malware,AI used as weapon,ChatGPT/OpenAI,AML.T0048.003,High,Hackers Exploit ChatGPT Share Links to Deliver Malware via Legitimate Domains
+INC-07982,2026,fraud/impersonation,privacy-violation,unclear,,AML.T0048.003,Medium,AI-Enabled Biometric Scams Target Job Seekers in India
+INC-07985,2026,intrusion,prompt-injection,AI product attacked,ChatGPT/OpenAI,AML.T0048.003;AML.T0051;AML.T0053;AML.T0057,High,ChatGPT Summarization Vulnerability Enables Phishing Attacks via Prompt Injection
+INC-07986,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,Canadian Police Charge Two Men for AI Deepfake Sexual Exploitation
+INC-08026,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Scam Targets French TV Host Michel Drucker
+INC-08029,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050,High,AI-Driven 'Selfie Fingerprint' Scam Exposes Biometric Data from Social Media Photos
+INC-08039,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Generated Content Spurs Fraud; Multimodal Detection System Deployed in China
+INC-08045,2026,intrusion,rce,AI product attacked,,AML.T0050;AML.T0115.001,High,AI-Generated Legal Documents and AI-Enabled Cyberattacks Cause Harm
+INC-08051,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,Hong Kong Regulator Warns of Rising AI-Driven Cyber Threats
+INC-08070,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Scam Impersonates Greek Celebrity Anna Vissi
+INC-08076,2026,intrusion,prompt-injection,AI product attacked,Gemini,AML.T0020;AML.T0048.003;AML.T0051;AML.T0053;AML.T0057;AML.T0066;AML.T0115.001,High,Google Gemini AI Vulnerability Exploited via Malicious Notifications on Android
+INC-08077,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0053;AML.T0057,High,Researchers Demonstrate Adaptive AI-Powered Computer Worm Threat
+INC-08080,2026,intrusion,data-exfiltration,AI product attacked,Claude,AML.T0010;AML.T0012;AML.T0050;AML.T0057,Critical,Anthropic's Claude Mythos AI Uncovers Cyber Vulnerabilities in Australia
+INC-08084,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Enabled Fraud Targets Vietnamese Individuals and Businesses
+INC-08086,2026,intrusion,malware,AI used as weapon,,,Critical,"AI-Driven Cyberattacks Escalate, Lowering Barriers for Hackers"
+INC-14843,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0012;AML.T0048.003;AML.T0057;AML.T0115.001,High,Cheerleader's Personal Data Stolen in AI-Enabled Scam
+INC-14845,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,South Korea Launches Task Force to Combat AI-Driven Insurance Fraud
+INC-08102,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI Voice Cloning and Scam Ads Lead to Financial Harm in China and Thailand
+INC-08103,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Experts Warn of AI-Driven Deepfake and Fraud Epidemic in India
+INC-08105,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Driven Scam Detection and Fraudulent Activity Prevention in Japan and the US
+INC-08117,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Driven Messaging Scams Cause Major Financial Losses in Portugal
+INC-08134,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0050;AML.T0057,Critical,"AI-Driven Cyberattacks Surge in Taiwan, Semiconductor Sector Hit Hard"
+INC-12992,2026,fraud/impersonation,model-poisoning,AI product attacked,ChatGPT/OpenAI,AML.T0020;AML.T0048.003;AML.T0066;AML.T0115.001,Medium,ChatGPT Recommends Scam Shopping Sites After Data Poisoning
+INC-08143,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Evidence Fuels Record Insurance Fraud at Aviva
+INC-14854,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Teen Uses AI Deepfake to Create and Distribute Sexual Exploitation Images of Teachers in Incheon
+INC-08151,2026,intrusion,rce,AI product attacked,,AML.T0050,Critical,AI-Powered Surveillance Breaches Lead to Security Risks and Assassinations
+INC-13033,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,Suspect Arrested for Using AI-Generated Images to Impersonate Turkish Officials
+INC-13039,2026,intrusion,rce,AI product attacked,ChatGPT/OpenAI,AML.T0050,High,ChatGPT Used to Set Extortion Amount in Violent Assault by Japanese Teens
+INC-13045,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,Global Regulators Warn of Risks from Agentic AI in Finance
+INC-14863,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Generated Fake Doctor Used in Fraudulent Anti-Aging Product Ads in South Korea
+INC-13051,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0057,High,OpenClaw AI Agent Leaks Sensitive Credentials During Phishing Simulations
+INC-13058,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050,Critical,AI-Driven Fraud Surge Threatens Financial Institutions and Public Trust
+INC-13059,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0010;AML.T0012;AML.T0048;AML.T0050;AML.T0057,Critical,AI-Driven Vulnerabilities Accelerate Cyberattacks and Exploits
+INC-13064,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI Deepfakes Used to Bypass Facial Authentication and Commit Financial Fraud in India
+INC-13071,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Scams Target Victims in Turkey
+INC-13075,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,"AI-Generated Deepfake Video Scam Leads to €33,000 Loss in Bulgaria"
+INC-13096,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Enabled Scams Cause Surge in UK Financial Fraud Losses
+INC-13101,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Deepfake Scam Causes Major Financial Losses in France
+INC-14872,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,High,AI-Powered Wireless Backdoor Detection System Deployed in Semiconductor Industry
+INC-13108,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI Deepfakes Used to Impersonate Doctors in Fraudulent Medical Ads in Taiwan
+INC-13117,2026,intrusion,phishing,AI used as weapon,,AML.T0048.003,Medium,German Pension Insurance Warns of AI-Generated Phishing Emails
+INC-13130,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0010;AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,Critical,AI-Powered Phishing Attacks Exploit Microsoft Device Code Login
+INC-13139,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,South Korean Police Crack Down on AI-Generated Deepfake Sexual Exploitation Crimes
+INC-13142,2026,intrusion,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050,Critical,AI-Powered Cyberattacks Drive Surge in Global Business Risks
+INC-13147,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,"AI-Driven Sextortion Scams Surge Globally, Victims Targeted with Manipulated Content"
+INC-13150,2026,intrusion,phishing,AI used as weapon,,AML.T0048.003,High,AI-Driven Phishing Attacks Expose Employee Data at Major Enterprises
+INC-13155,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Dutch Man Jailed for Using Deepfake AI to Commit Large-Scale Bank Fraud
+INC-13160,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,AI-Generated Bride Scam Defrauds Matrimonial Seekers in Kanpur
+INC-13185,2026,intrusion,rce,AI product attacked,,AML.T0048.003;AML.T0050,High,AI-Assisted Crackdown on Phone Number Spoofing Reduces Phishing Scams in South Korea
+INC-13187,2026,intrusion,rce,AI product attacked,,AML.T0048.003;AML.T0050,High,Spanish Companies Unprepared for AI-Driven Cyberattacks
+INC-13191,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0053;AML.T0057,High,Google DeepMind Unveils AI Control Roadmap to Address Risks of Rogue AI Agents
+INC-13195,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Driven Digital Identity Fraud Surges in Brazil
+INC-13200,2026,intrusion,data-exfiltration,AI product attacked,Image generators,AML.T0012;AML.T0057;AML.T0115.001,High,Midjourney Unveils AI-Powered Full-Body Ultrasound Scanner
+INC-13201,2026,fraud/impersonation,other,unclear,,AML.T0048.003;AML.T0115.001,Medium,AI-Driven Banking Fraud Surge in Costa Rica
+INC-13215,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,AI-Powered License Plate Readers Enable Mass Surveillance and Privacy Violations in the US
+INC-13217,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,Critical,AI-Driven Scams Lead to Record Financial Losses and Sophisticated Fraud
+INC-13255,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0057,High,AI-Driven Digital Fraud Surges During World Cup in Mexico
+INC-13266,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Driven Fraud Scams Prompt Global Concern and Crackdown
+INC-13286,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Starling Bank Deploys AI Scam Detection to Prevent Financial Fraud
+INC-13292,2026,intrusion,rce,AI product attacked,,AML.T0048;AML.T0050,Critical,AI-Driven Cyberattacks Raise Security Concerns in Germany
+INC-13300,2026,intrusion,rce,AI product attacked,,AML.T0048;AML.T0048.003;AML.T0050,Critical,AI-Assisted Takedown of Global Malware Operations Amadey and StealC
+INC-14236,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Driven Fraud Causes Global Financial Harm Across Financial and Ecommerce Sectors
+INC-13326,2026,intrusion,other,unclear,,,High,"AI-Driven Cyberattacks Overwhelm Enterprises, Prompting Launch of Rex Incident Response Platform"
+INC-14245,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Generated Deepfake Faces Used in Large-Scale Fraud and Identity Theft in China
+INC-14246,2026,intrusion,prompt-injection,AI product attacked,Claude,AML.T0051,High,AI Coding Assistant Claude Code Exploited via Indirect Prompt Injection to Compromise Developer Machines
+INC-14251,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0050;AML.T0057,High,Samsung Data Leak Caused by Employee Use of Generative AI Tools
+INC-14253,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0057,High,AI-Powered Sports Betting Scams Lead to Financial and Privacy Harms in China
+INC-14256,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,"AI-Driven Travel Scams Surge in Italy, Causing Widespread Financial Harm"
+INC-14261,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0020;AML.T0057;AML.T0066,High,AI-Generated Code and Automated Vulnerability Scanning Lead to Security Incidents in Japan
+INC-14895,2026,intrusion,rce,AI product attacked,,AML.T0050;AML.T0115.001,High,AI-Driven Blackmail Ring Uses Fake Content to Extort Chinese Entertainment Industry
+INC-14281,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,Employee Vulnerability to Deepfake Scams and Ungoverned AI Agents Raises Security Risks
+INC-14284,2026,intrusion,data-exfiltration,AI product attacked,Claude,AML.T0012;AML.T0048.003;AML.T0050;AML.T0053;AML.T0057,Critical,Anthropic's Claude Code Accused of Covertly Identifying China-Linked Users
+INC-14290,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Generated Police Impersonation Scam Targets Women in Ecuador
+INC-14298,2026,intrusion,other,unclear,,AML.T0115.001,Medium,"AI-Generated Cybersecurity Report Falsely Links MeetingTV to Espionage, Causing Business Harm"
+INC-14300,2026,intrusion,rce,AI product attacked,,AML.T0048;AML.T0050,Critical,RBI Flags AI-Enabled Cyberattacks as Top Threat to Indian Banking Sector
+INC-14303,2026,fraud/impersonation,other,unclear,,AML.T0048.003,High,Gurugram Municipal Staff Fired for AI-Driven Fraud and Misconduct
+INC-14305,2026,intrusion,deepfake,AI used as weapon,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0057;AML.T0115.001,Critical,AI-Driven Cyberattacks and Data Breaches Highlight Security Gaps
+INC-14312,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0057,High,AI-Assisted Hacking Exposes Major US Music Festival Ticketing Vulnerability
+INC-14323,2026,intrusion,data-exfiltration,AI product attacked,DeepSeek,AML.T0048;AML.T0050;AML.T0053;AML.T0057;AML.T0115.001,Critical,AI-Generated In-Browser Ransomware Technique Emerges via DeepSeek
+INC-14325,2026,intrusion,data-exfiltration,AI product attacked,Claude,AML.T0012;AML.T0048.003;AML.T0050;AML.T0053;AML.T0057;AML.T0115.001,Critical,Alibaba Bans Anthropic's Claude Code Over Security Concerns
+INC-14332,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Driven Investment Scams Cause Major Losses in Hong Kong
+INC-14345,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Generated Fraud Targets Indonesian Pensioners via Fake TASPEN Content
+INC-14348,2026,intrusion,other,unclear,,,High,"AI-Driven Cyberattacks Overwhelm Security Teams, Widening Exposure Gap"
+INC-14349,2026,fraud/impersonation,prompt-injection,AI product attacked,,AML.T0020;AML.T0048.003;AML.T0051;AML.T0066;AML.T0115.001,Medium,AI Agents Manipulated by Hidden Web Prompts to Make Fraudulent Payments
+INC-14351,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Powered Fraud Network in Istanbul Targeting Europeans Dismantled
+INC-14352,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0057,Critical,AI-Driven Hybrid Attack Targets Greek National Security Official
+INC-14378,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048;AML.T0048.003;AML.T0050;AML.T0053;AML.T0057,Critical,ESET Report Reveals Surge in AI-Driven Cyber Attacks
+INC-14897,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0050;AML.T0057,High,"AI-Assisted Cyberattack Disrupts Bandai Channel, 46,000 Accounts Affected"
+INC-14395,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050;AML.T0115.001,High,"AI-Generated Faces Deemed More Trustworthy Than Real Faces, Raising Fraud Risks"
+INC-14408,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,"AI-Generated Deepfake Videos Impersonate Doctor, Spread Harmful Medical Misinformation to Elderly in Brazil"
+INC-14423,2026,intrusion,rce,AI product attacked,,AML.T0050,High,AI-Assisted Exploit Forces Secret Network Migration to Arbitrum
+INC-14437,2026,fraud/impersonation,other,unclear,,AML.T0048.003,Medium,Ghanaian Influencer Extradited to US for AI-Driven $8M Romance Scam
+INC-14444,2026,intrusion,data-exfiltration,AI product attacked,,AML.T0012;AML.T0048.003;AML.T0057,High,AI-Driven Online Scams Affect Majority of Internet Users Globally
+INC-14453,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Driven Scams Cause Financial Harm in China
+INC-14454,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,Chinese Criminal Syndicate Uses AI to Impersonate Police in Massive Fraud Targeting Spain
+INC-14457,2026,fraud/impersonation,other,unclear,,AML.T0048.003,High,AI-Generated Fake IDs Used in Driving License Exam Fraud Uncovered in Turkey
+INC-14516,2026,intrusion,data-exfiltration,AI product attacked,Claude,AML.T0012;AML.T0050;AML.T0053;AML.T0057,High,AI Tool T3MP3ST Automates Hacking with Claude Code
+INC-14521,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,Transnational AI-Driven Visa Fraud Network Dismantled in Colombia
+INC-14524,2026,intrusion,rce,AI product attacked,,AML.T0048.003;AML.T0050,High,AI-Enabled Scams and Privacy Breaches Target World Cup Fans
+INC-14526,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,High,AI-Driven Trust-Based Cyberattacks Target Indian Financial Sector
+INC-14536,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0048.003;AML.T0115.001,Medium,AI-Driven Scams Lead to Financial Losses and Safety Risks
+INC-14542,2026,intrusion,deepfake,AI used as weapon,,AML.T0048.003;AML.T0050;AML.T0115.001,High,AI-Generated Deepfake Ads Exploit Fernanda Montenegro's Image in Fraudulent Medication Scam
+INC-14547,2026,intrusion,rce,AI product attacked,,AML.T0050,High,San Francisco Police Drone Footage Leak Exposes AI-Driven Surveillance and Privacy Breach
+INC-14550,2026,intrusion,rce,AI product attacked,,AML.T0048.003;AML.T0050,Critical,Canadian Regulator Warns Banks of AI-Driven Cyber Threats and Phishing Attacks
+INC-14558,2026,intrusion,deepfake,AI used as weapon,,AML.T0012;AML.T0048.003;AML.T0057;AML.T0115.001,High,"AI Systems Now Orchestrate Live Cyberattacks, Causing Real-World Harm"
+INC-14905,2026,intrusion,phishing,AI used as weapon,,AML.T0048.003,Medium,AI-Driven Fraud and Phishing Attacks Surge Globally
+INC-14577,2026,fraud/impersonation,deepfake,AI used as weapon,,AML.T0012;AML.T0048.003;AML.T0057;AML.T0115.001,High,AI-Driven Fraud Schemes Target Victims in Germany
+INC-14583,2026,intrusion,dos,unclear,,AML.T0029,Medium,AI-Assisted TuxBot v3 IoT Botnet Actively Exploits Devices for DDoS Attacks
+INC-14589,2026,fraud/impersonation,rce,AI product attacked,,AML.T0048.003;AML.T0050;AML.T0115.001,High,Romanian Border Police Warns of AI-Generated Fake Accounts Impersonating Institution
+INC-07730,2024,intrusion,jailbreak,AI product attacked,ChatGPT/OpenAI,AML.T0051;AML.T0054,Medium,JailbreakBench: open robustness benchmark for LLM jailbreaking
+INC-04216,2024,intrusion,memory-poisoning,AI product attacked,ChatGPT/OpenAI,AML.T0048.003;AML.T0051;AML.T0057;AML.T0066;AML.T0070,Critical,SpAIware: Persistent Memory Spyware Injection into ChatGPT macOS
+INC-03989,2024,intrusion,data-exfiltration,AI product attacked,Copilot,AML.T0048.003;AML.T0051;AML.T0053;AML.T0057,High,Microsoft 365 Copilot ASCII Smuggling Data Exfiltration
+INC-03808,2024,intrusion,data-exfiltration,AI product attacked,Copilot,AML.T0048.003;AML.T0051;AML.T0053;AML.T0057,High,GitHub Copilot Chat Prompt Injection to Data Exfiltration
+INC-02434,2025,intrusion,data-exfiltration,AI product attacked,Claude,AML.T0048;AML.T0048.003;AML.T0050;AML.T0051;AML.T0053;AML.T0057,Critical,Claude Code Data Exfiltration via DNS (CVE-2025-55284)
+INC-02552,2025,intrusion,data-exfiltration,AI product attacked,ChatGPT/OpenAI,AML.T0048.003;AML.T0051;AML.T0053;AML.T0057,High,Exfiltrating ChatGPT Chat History and Memories with Prompt Injection
+INC-02397,2025,intrusion,memory-poisoning,AI product attacked,ChatGPT/OpenAI,AML.T0051;AML.T0053;AML.T0066;AML.T0070,High,ChatGPT Command Memories Injection via SearchGPT
+INC-02691,2025,intrusion,jailbreak,AI product attacked,ChatGPT/OpenAI,AML.T0051;AML.T0054;AML.T0056,High,HiddenLayer Bypass of OpenAI Guardrails (Self-Policing LLM)
+INC-03390,2025,intrusion,prompt-injection,AI product attacked,ChatGPT/OpenAI;Gemini;Copilot;Cursor,AML.T0048.003;AML.T0051;AML.T0053;AML.T0057,Critical,Zenity AgentFlayer Zero-Click Exploit Chains Across Enterprise AI Agents
+INC-02332,2025,intrusion,tool-abuse,AI product attacked,,AML.T0012;AML.T0051;AML.T0053,Critical,AppOmni BodySnatcher ServiceNow AI Agent Privilege Escalation
+INC-00643,2026,intrusion,tool-abuse,AI product attacked,Copilot,AML.T0012;AML.T0051;AML.T0053,High,AppOmni Critical AI Agent Flaws in Microsoft Copilot Studio
+INC-04255,2024,intrusion,tool-abuse,AI product attacked,Claude,AML.T0012;AML.T0024;AML.T0029,High,Sysdig LLMjacking: Stolen Cloud Credentials Hijack LLMs
+INC-02637,2025,intrusion,other,unclear,Gemini,AML.T0017;AML.T0024;AML.T0029;AML.T0048;AML.T0053,Critical,Google GTIG November 2025 AI Threat Tracker
+INC-03314,2025,intrusion,data-exfiltration,AI product attacked,,AML.T0024;AML.T0029;AML.T0053,Critical,Unit 42 AI-Powered Ransomware 25-Minute Compromise
+INC-03212,2025,intrusion,supply-chain,AI product attacked,,AML.T0010;AML.T0024;AML.T0029,Critical,Shai-Hulud npm Worm Used LLM to Generate Malicious Scripts
+INC-02819,2025,intrusion,memory-poisoning,AI product attacked,ChatGPT/OpenAI,AML.T0051;AML.T0066;AML.T0070,Critical,LayerX ChatGPT Atlas Tainted Memories Vulnerability
+INC-02483,2025,intrusion,rce,AI product attacked,ChatGPT/OpenAI;Claude;Gemini,AML.T0010;AML.T0050;AML.T0051;AML.T0053,Critical,Dark Side of LLMs: Agent-Based Attacks for Computer Takeover
+INC-02955,2025,intrusion,tool-abuse,AI product attacked,Gemini,AML.T0048;AML.T0051;AML.T0053,High,Noma Security Agentic Risk Map Disclosure: ForcedLeak and GeminiJack
+INC-00735,2026,intrusion,jailbreak,AI product attacked,,AML.T0024;AML.T0029;AML.T0053,High,Cato CTRL 2026 Threat Report: AI Threats Mainstreaming
+INC-02855,2025,intrusion,malware,AI used as weapon,,AML.T0024;AML.T0029;AML.T0053,High,Mandiant M-Trends 2025: AI Adoption by Threat Actors
+INC-01600,2026,intrusion,supply-chain,AI product attacked,,AML.T0010;AML.T0048;AML.T0050;AML.T0051;AML.T0053,Critical,OpenClaw Open-Source AI Agent Mass Compromise
+INC-03933,2024,intrusion,data-exfiltration,AI product attacked,ChatGPT/OpenAI,AML.T0048.003;AML.T0051;AML.T0057,Medium,Lakera Copy-Paste Injection Exploit in ChatGPT
+INC-02460,2025,intrusion,tool-abuse,AI product attacked,Copilot,AML.T0051;AML.T0053,High,CoPhish: Copilot Studio Phishing Platform Abuse
+INC-04103,2024,intrusion,prompt-injection,AI product attacked,Claude,AML.T0050;AML.T0051;AML.T0053,High,Prompt Security Analysis: Claude Computer Use Ticking Time Bomb
+INC-04066,2024,intrusion,phishing,AI used as weapon,ChatGPT/OpenAI,AML.T0017;AML.T0024;AML.T0029;AML.T0050;AML.T0053;AML.T0066,High,OpenAI February 2024 Disrupting State-Affiliated Threat Actors
+INC-03694,2024,intrusion,tool-abuse,AI product attacked,ChatGPT/OpenAI,AML.T0017;AML.T0029;AML.T0050;AML.T0053,Critical,CyberAv3ngers (Iran IRGC) — used ChatGPT to research ICS attacks on water utilities
+INC-04231,2024,intrusion,tool-abuse,AI product attacked,ChatGPT/OpenAI,AML.T0017;AML.T0050;AML.T0053,High,STORM-0817 (Iran) — used ChatGPT to debug Android surveillanceware
+INC-02680,2025,intrusion,tool-abuse,AI product attacked,Gemini,AML.T0017;AML.T0029;AML.T0050;AML.T0066,High,GTIG — Iranian APT42 used Gemini extensively across attack lifecycle
+INC-02461,2025,fraud/impersonation,tool-abuse,AI product attacked,,AML.T0017;AML.T0018;AML.T0020;AML.T0050;AML.T0053;AML.T0066,Critical,CrowdStrike — FAMOUS CHOLLIMA infiltrated 320+ companies via GenAI-assisted hiring fraud
+INC-03573,2024,intrusion,tool-abuse,AI product attacked,Claude,AML.T0017;AML.T0050;AML.T0066,High,Anthropic — Frontier Threats Red Team: spear-phishing scaling study
+INC-02854,2025,intrusion,tool-abuse,AI product attacked,,AML.T0017;AML.T0050;AML.T0053;AML.T0066,High,Mandiant M-Trends 2025 — AI used by financially-motivated and state-sponsored actors
+INC-04003,2024,intrusion,tool-abuse,AI product attacked,,AML.T0017;AML.T0050;AML.T0066,Critical,Microsoft MTAC — Mint Sandstorm spear-phished Trump campaign with AI-drafted lures
+INC-04006,2024,intrusion,tool-abuse,AI product attacked,,AML.T0017;AML.T0050;AML.T0066,Critical,Microsoft — Peach Sandstorm (Iran) deployed Tickler malware with AI-assisted social engineering
+INC-03827,2024,intrusion,tool-abuse,AI product attacked,,AML.T0017;AML.T0050;AML.T0066,Critical,Google TAG — APT42 spear-phishing US/Israel officials with AI-assisted lures
+INC-14923,2025,intrusion,model-poisoning,AI product attacked,ChatGPT/OpenAI,AML.T0020,Medium,AutoBackdoor: Automating Backdoor Attacks via LLM Agents
+INC-14925,2026,intrusion,prompt-injection,AI product attacked,,AML.T0051,Medium,The Promptware Kill Chain: How Prompt Injections Gradually Evolved Into a Multistep Malware Delivery Mechanism
+INC-14927,2026,intrusion,model-poisoning,AI product attacked,,AML.T0020,Medium,Inference-Time Backdoors via Chat Templates: From LLM Supply Chains to Agentic System Compromise
+INC-14928,2026,intrusion,model-poisoning,AI product attacked,,AML.T0020,Medium,BadTemplate: A Training-Free Backdoor Attack via Chat Template Against Large Language Models
+INC-14934,2026,intrusion,model-poisoning,AI product attacked,,AML.T0020,Medium,Hidden Ads: Behavior Triggered Semantic Backdoors for Advertisement Injection in Vision Language Models
+INC-14936,2026,intrusion,model-poisoning,AI product attacked,,AML.T0020,Medium,Adjustable Text-Guided Backdoor Attacks with Natural-Word Triggers on Multimodal Pretrained Models
+INC-14943,2026,intrusion,rce,AI product attacked,,AML.T0050,Medium,Exploiting LLM Agent Supply Chains via Payload-less Skills
+INC-14958,2026,intrusion,other,unclear,,,Medium,From Role Prompt to Infinite Thinking: Exploiting Persona Conditioning for Inference Cost Attacks in LLMs
+INC-14959,2026,intrusion,indirect-prompt-injection,AI product attacked,,AML.T0051,Medium,LoginTrap: Uncovering Task-Agnostic Phishing-Style Indirect Prompt Injection Attacks against LLM-based Web Agents
+INC-14965,2026,intrusion,other,unclear,,,Medium,CodeMimicry: Exploiting Safety Generalization Lag in Large Language Models via Structured Code Completion
